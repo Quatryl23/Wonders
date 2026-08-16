@@ -1,0 +1,24 @@
+{
+  "structures": [
+    {
+      "structure": "wonders:gardens",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 80,
+    "separation": 36,
+    "spread_type": "linear",
+    "salt": 9082026,
+    "exclusion_zone": {
+      "other_set": "minecraft:villages",
+      "chunk_count": 16
+    },
+    "locate_offset": [
+      0,
+      0,
+      0
+    ]
+  }
+}

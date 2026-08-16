@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "hit": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "nbt": "{weapon:{components:{\"minecraft:custom_data\":{\"wonders.item.artemis_bow\":1b}}}}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "wonders:item/artemis_bow/hit"
+  }
+}

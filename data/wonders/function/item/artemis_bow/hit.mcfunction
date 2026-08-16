@@ -1,0 +1,2 @@
+advancement revoke @s only wonders:item/artemis_bow_hit
+execute as @n[type=arrow,nbt={weapon:{components:{"minecraft:custom_data":{"wonders.item.artemis_bow":1b}}},inGround:false}] at @s run function wonders:item/artemis_bow/arrow_rain

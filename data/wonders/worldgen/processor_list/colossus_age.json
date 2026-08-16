@@ -1,0 +1,259 @@
+[
+  {
+    "processor_type": "minecraft:rule",
+    "rules": [
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:waxed_copper_block",
+          "probability": 0.4
+        },
+        "output_state": {
+          "Name": "minecraft:copper_block"
+        }
+      },
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:waxed_copper_block",
+          "probability": 0.35
+        },
+        "output_state": {
+          "Name": "minecraft:exposed_copper"
+        }
+      },
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:waxed_copper_block",
+          "probability": 0.25
+        },
+        "output_state": {
+          "Name": "minecraft:weathered_copper"
+        }
+      },
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:waxed_copper_block",
+          "probability": 0.1
+        },
+        "output_state": {
+          "Name": "minecraft:waxed_oxidized_copper"
+        }
+      },
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_blockstate_match",
+          "block_state": {
+            "Name": "minecraft:waxed_copper_trapdoor",
+            "Properties": {
+              "facing": "north",
+              "half": "top",
+              "open": "true"
+            }
+          },
+          "probability": 0.7
+        },
+        "output_state": {
+          "Name": "minecraft:copper_trapdoor",
+          "Properties": {
+            "facing": "north",
+            "half": "top",
+            "open": "true"
+          }
+        }
+      },
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_blockstate_match",
+          "block_state": {
+            "Name": "minecraft:waxed_copper_trapdoor",
+            "Properties": {
+              "facing": "north",
+              "half": "top",
+              "open": "true"
+            }
+          },
+          "probability": 0.3
+        },
+        "output_state": {
+          "Name": "minecraft:exposed_copper_trapdoor",
+          "Properties": {
+            "facing": "north",
+            "half": "top",
+            "open": "true"
+          }
+        }
+      },
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_blockstate_match",
+          "block_state": {
+            "Name": "minecraft:waxed_copper_trapdoor",
+            "Properties": {
+              "facing": "south",
+              "half": "top",
+              "open": "true"
+            }
+          },
+          "probability": 0.7
+        },
+        "output_state": {
+          "Name": "minecraft:copper_trapdoor",
+          "Properties": {
+            "facing": "south",
+            "half": "top",
+            "open": "true"
+          }
+        }
+      },
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_blockstate_match",
+          "block_state": {
+            "Name": "minecraft:waxed_copper_trapdoor",
+            "Properties": {
+              "facing": "south",
+              "half": "top",
+              "open": "true"
+            }
+          },
+          "probability": 0.3
+        },
+        "output_state": {
+          "Name": "minecraft:exposed_copper_trapdoor",
+          "Properties": {
+            "facing": "south",
+            "half": "top",
+            "open": "true"
+          }
+        }
+      },
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_blockstate_match",
+          "block_state": {
+            "Name": "minecraft:waxed_copper_trapdoor",
+            "Properties": {
+              "facing": "west",
+              "half": "top",
+              "open": "true"
+            }
+          },
+          "probability": 0.7
+        },
+        "output_state": {
+          "Name": "minecraft:copper_trapdoor",
+          "Properties": {
+            "facing": "west",
+            "half": "top",
+            "open": "true"
+          }
+        }
+      },
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_blockstate_match",
+          "block_state": {
+            "Name": "minecraft:waxed_copper_trapdoor",
+            "Properties": {
+              "facing": "west",
+              "half": "top",
+              "open": "true"
+            }
+          },
+          "probability": 0.3
+        },
+        "output_state": {
+          "Name": "minecraft:exposed_copper_trapdoor",
+          "Properties": {
+            "facing": "west",
+            "half": "top",
+            "open": "true"
+          }
+        }
+      },
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_blockstate_match",
+          "block_state": {
+            "Name": "minecraft:waxed_copper_trapdoor",
+            "Properties": {
+              "facing": "east",
+              "half": "top",
+              "open": "true"
+            }
+          },
+          "probability": 0.7
+        },
+        "output_state": {
+          "Name": "minecraft:copper_trapdoor",
+          "Properties": {
+            "facing": "east",
+            "half": "top",
+            "open": "true"
+          }
+        }
+      },
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_blockstate_match",
+          "block_state": {
+            "Name": "minecraft:waxed_copper_trapdoor",
+            "Properties": {
+              "facing": "east",
+              "half": "top",
+              "open": "true"
+            }
+          },
+          "probability": 0.3
+        },
+        "output_state": {
+          "Name": "minecraft:exposed_copper_trapdoor",
+          "Properties": {
+            "facing": "east",
+            "half": "top",
+            "open": "true"
+          }
+        }
+      }
+    ]
+  }
+]

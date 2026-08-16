@@ -1,0 +1,23 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "wonders:pyramid/corner_left_1",
+        "processors": "wonders:pyramid_age"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "wonders:pyramid/corner_left_2",
+        "processors": "wonders:pyramid_age"
+      }
+    }
+  ]
+}

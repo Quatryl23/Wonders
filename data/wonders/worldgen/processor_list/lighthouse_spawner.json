@@ -1,0 +1,25 @@
+[
+  {
+    "processor_type": "minecraft:rule",
+    "rules": [
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:iron_chain",
+          "probability": 0.1
+        },
+        "output_state": {
+          "Name": "minecraft:spawner"
+        },
+        "block_entity_modifier": {
+          "type": "minecraft:append_static",
+          "data": {"MaxNearbyEntities": 8, "RequiredPlayerRange": 32, "SpawnCount": 4, "SpawnData": {"entity": {"id": "minecraft:drowned"}}, "MaxSpawnDelay": 300, "SpawnRange": 8, "MinSpawnDelay": 150}
+        }
+      }
+    ]
+  }
+]
+

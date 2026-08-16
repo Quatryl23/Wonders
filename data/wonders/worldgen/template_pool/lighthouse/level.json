@@ -1,0 +1,41 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "wonders:lighthouse/level/level_1",
+        "processors": "wonders:lighthouse_spawner"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "wonders:lighthouse/level/level_2",
+        "processors": "wonders:lighthouse_spawner"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "wonders:lighthouse/level/level_3",
+        "processors": "wonders:lighthouse_spawner"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "wonders:lighthouse/level/level_4",
+        "processors": "wonders:lighthouse_spawner"
+      }
+    }
+  ]
+}

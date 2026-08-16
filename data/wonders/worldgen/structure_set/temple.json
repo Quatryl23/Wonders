@@ -1,0 +1,24 @@
+{
+  "structures": [
+    {
+      "structure": "wonders:temple",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 60,
+    "separation": 20,
+    "spread_type": "linear",
+    "salt": 3082026,
+    "exclusion_zone": {
+      "other_set": "minecraft:villages",
+      "chunk_count": 16
+    },
+    "locate_offset": [
+      0,
+      0,
+      0
+    ]
+  }
+}

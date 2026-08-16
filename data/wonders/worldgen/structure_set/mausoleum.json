@@ -1,0 +1,24 @@
+{
+  "structures": [
+    {
+      "structure": "wonders:mausoleum",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 120,
+    "separation": 50,
+    "spread_type": "linear",
+    "salt": 27072026,
+    "exclusion_zone": {
+      "other_set": "minecraft:villages",
+      "chunk_count": 16
+    },
+    "locate_offset": [
+      0,
+      0,
+      0
+    ]
+  }
+}

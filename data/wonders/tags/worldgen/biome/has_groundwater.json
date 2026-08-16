@@ -1,0 +1,11 @@
+{
+  "values": [
+    "minecraft:desert",
+    "#minecraft:is_forest",
+    "minecraft:plains",
+    "#minecraft:is_savanna",
+    "#minecraft:is_beach",
+    "minecraft:mushroom_fields",
+    "minecraft:swamp"
+  ]
+}

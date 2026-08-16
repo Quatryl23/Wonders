@@ -1,0 +1,88 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:map"
+    },
+    "title": "Herodotus himself",
+    "description": "Find all Seven Wonders of the World",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "wonders:found_any_wonder",
+  "criteria": {
+    "pyramid": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:location": {
+            "structures": "wonders:pyramid"
+          }
+        }
+      }
+    },
+    "gardens": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:location": {
+            "structures": "wonders:gardens"
+          }
+        }
+      }
+    },
+    "lighthouse": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:location": {
+            "structures": "wonders:lighthouse"
+          }
+        }
+      }
+    },
+    "colossus": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:location": {
+            "structures": "wonders:colossus"
+          }
+        }
+      }
+    },
+    "temple": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:location": {
+            "structures": "wonders:temple"
+          }
+        }
+      }
+    },
+    "statue": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:location": {
+            "structures": "wonders:statue"
+          }
+        }
+      }
+    },
+    "mausoleum": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:location": {
+            "structures": "wonders:mausoleum"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1000
+  }
+}

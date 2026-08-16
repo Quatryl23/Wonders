@@ -1,0 +1,13 @@
+{
+  "pack": {
+    "description": "The Seven Wonders of the Ancient World",
+    "min_format": [
+      101,
+      2
+    ],
+    "max_format": [
+      112,
+      0
+    ]
+  }
+}

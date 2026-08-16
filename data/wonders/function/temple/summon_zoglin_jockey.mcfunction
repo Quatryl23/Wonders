@@ -1,0 +1,4 @@
+execute at @s run summon zoglin ~ ~ ~ {Team:"artemis",Health:50f,IsBaby:0b,Passengers:[{id:"minecraft:skeleton",Team:"wonders.temple.artemis",Health:40f,equipment:{feet:{id:"minecraft:golden_boots",count:1,components:{"minecraft:enchantments":{"protection":2}}},legs:{id:"minecraft:golden_leggings",count:1,components:{"minecraft:enchantments":{"protection":2}}},chest:{id:"minecraft:golden_chestplate",count:1,components:{"minecraft:enchantments":{"protection":2}}},head:{id:"minecraft:golden_helmet",count:1,components:{"minecraft:enchantments":{"protection":2}}},mainhand:{id:"minecraft:golden_spear",count:1,components:{"minecraft:enchantments":{"knockback":1,"sharpness":4}}}},drop_chances:{feet:0.000,legs:0.000,chest:0.000,head:0.000,mainhand:0.000},attributes:[{id:"minecraft:max_health",base:40}]}],attributes:[{id:"minecraft:max_health",base:50}]}
+execute at @s run playsound minecraft:entity.parrot.imitate.creaking hostile @a ~ ~ ~ 1000 1 1
+kill @s
+

@@ -10,7 +10,7 @@
 ## The Great Pyramid of Giza
 <img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/49dcbe66-3c65-4cad-82ae-309ae220a3c7" />
 
-Once you've entered this giant piece of sandstone, you better find a way to navigate through the endless corridors. And don´t even think about mining your way to the King's chamber: You don´t want to disturb the peace of the dead!
+Once you've entered this giant piece of sandstone, you better find a way to navigate through the endless corridors. And don't even think about mining your way to the King's chamber: You don't want to disturb the peace of the dead!
 
 ## The Hanging Gardens of Babylon
 <img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/188dbbcd-4adb-4b71-8f63-2e9a88e31d1e" />
@@ -25,11 +25,19 @@ No wonder there are so many shipwrecks in Minecraft considering how rarely a lig
 ## The Colossus of Rhodes
 <img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/892bdc88-0204-4bdd-831f-549e41e01512" />
 
+From what I see, I'd say this one's to remember a successful raid of a trial chamber.
+
 ## The Statue of Zeus at Olympia
 <img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/963e8004-0a6c-4af5-bda9-c5e2542dde51" />
+
+Yes, what you see is not the statue. But it's in that temple, I promise! And I wouldn't mine it even if it was, let's say, pure gold. You don't want to mess with Zeus, he might have permission level 3!
 
 ## The Temple of Artemis at Ephesus
 <img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/662896c1-8ae4-42db-821c-52b88a68d1b2" />
 
+When you approach this temple, be aware that Artemis is a great hunter and archer. But luckily, this is only a temple with an inanimate statue, right? Right!?
+
 ## The Mausoleum of Halicarnassus
 <img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/a2ae9da9-796d-4a9a-a524-90e7ff3e2aae" />
+
+Try to find an entrance until you realize it was blocked years ago. Smart move of a dead who is too lazy to build a giant maze around his tomb. But is that enough to stop potential tomb raiders? I would defend my grave with my life!

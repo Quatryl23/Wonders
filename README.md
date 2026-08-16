@@ -1,4 +1,5 @@
-<img width="1000" height="256" alt="wonders_banner" src="https://github.com/user-attachments/assets/50ec1aba-a0fd-468f-b7b2-3e9c4f63d2ef" />
+<img width="1000" height="256" alt="wonders_header" src="https://github.com/user-attachments/assets/74d5129e-ab46-4854-8cc0-eec61063c609" />
+
 
 # The Seven Wonders of the Ancient World in Minecraft
 - Seven new, rare structures of impressive size

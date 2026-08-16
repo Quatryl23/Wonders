@@ -1,7 +1,7 @@
 <img width="1000" height="256" alt="wonders_banner" src="https://github.com/user-attachments/assets/50ec1aba-a0fd-468f-b7b2-3e9c4f63d2ef" />
 
 # The Seven Wonders of the Ancient World in Minecraft
-- Seven new rare structures of impressive size
+- Seven new, rare structures of impressive size
 - Special challenges, including minigames and bossfights
 - Unique items with new abilities
 

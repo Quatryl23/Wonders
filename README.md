@@ -10,11 +10,17 @@
 ## The Great Pyramid of Giza
 <img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/49dcbe66-3c65-4cad-82ae-309ae220a3c7" />
 
+Once you've entered this giant piece of sandstone, you better find a way to navigate through the endless corridors. And don´t even think about mining your way to the King's chamber: You don´t want to disturb the peace of the dead!
+
 ## The Hanging Gardens of Babylon
 <img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/188dbbcd-4adb-4b71-8f63-2e9a88e31d1e" />
 
+This terrace complex is said to contain more plants than the Nether and End dimension combined (probably way more)! And it's also the most unwieldy place in the desert, so why not play a game of Hide and Seek there?
+
 ## The Lighthouse of Alexandria
 <img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/7910db14-0bdb-4419-ad14-376b059f5af8" />
+
+No wonder there are so many shipwrecks in Minecraft considering how rarely a lighthouse is actually there to guide the ships their way. Now all the drowned sailors must be very angry at this lighthouse for not being where they've sunk.
 
 ## The Colossus of Rhodes
 <img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/892bdc88-0204-4bdd-831f-549e41e01512" />

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "wonders",
+  "version": "${version}",
+  "name": "Wonders",
+  "description": "The Seven Wonders of the Ancient World in Minecraft",
+  "authors": ["RiRa","Mesophil"],
+  "contact": {
+    "homepage": "https://github.com/Quatryl23/Wonders"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/wonders/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.mesomods.wonders.client.WondersClient"
+    ],
+    "main": [
+      "net.mesomods.wonders.Wonders"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

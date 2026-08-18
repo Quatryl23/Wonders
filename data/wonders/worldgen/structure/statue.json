@@ -1,7 +1,7 @@
 {
   "type": "minecraft:jigsaw",
   "biomes": "#wonders:has_structure/statue",
-  "step": "surface_structures",
+  "step": "vegetal_decoration",
   "terrain_adaptation": "beard_thin",
   "spawn_overrides": {
     "monster": {

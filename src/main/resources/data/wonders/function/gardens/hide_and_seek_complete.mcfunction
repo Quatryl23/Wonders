@@ -1,5 +1,5 @@
 execute at @s run tellraw @a[distance=..20] {"text":"<Villager of the Gardens> You did it! Here is your reward!"}
-execute at @s run summon item ~ ~ ~ {Item:{id:"minecraft:diamond",count:7}}
+execute at @s run loot spawn ~ ~ ~ loot wonders:entities/gardens_villager
 data remove entity @s equipment.mainhand
 effect give @s minecraft:invisibility 1 1 true
 execute at @s run particle poof ^ ^ ^

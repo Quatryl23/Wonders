@@ -1,0 +1,12 @@
+execute if block ~-1 ~-1 ~ farmland if block ~-1 ~ ~ #minecraft:crops[age=5] run clone ~ ~ ~ ~ ~ ~ ~-1 ~ ~
+execute if block ~1 ~-1 ~ farmland if block ~1 ~ ~ #minecraft:crops[age=5] run clone ~ ~ ~ ~ ~ ~ ~1 ~ ~
+execute if block ~ ~-1 ~-1 farmland if block ~ ~ ~-1 #minecraft:crops[age=5] run clone ~ ~ ~ ~ ~ ~ ~ ~ ~-1
+execute if block ~ ~-1 ~1 farmland if block ~ ~ ~1 #minecraft:crops[age=5] run clone ~ ~ ~ ~ ~ ~ ~ ~ ~1
+execute if block ~-1 ~-1 ~ farmland if block ~-1 ~ ~ #minecraft:crops[age=4] run clone ~ ~ ~ ~ ~ ~ ~-1 ~ ~
+execute if block ~1 ~-1 ~ farmland if block ~1 ~ ~ #minecraft:crops[age=4] run clone ~ ~ ~ ~ ~ ~ ~1 ~ ~
+execute if block ~ ~-1 ~-1 farmland if block ~ ~ ~-1 #minecraft:crops[age=4] run clone ~ ~ ~ ~ ~ ~ ~ ~ ~-1
+execute if block ~ ~-1 ~1 farmland if block ~ ~ ~1 #minecraft:crops[age=4] run clone ~ ~ ~ ~ ~ ~ ~ ~ ~1
+execute if block ~-1 ~-1 ~ farmland if block ~-1 ~ ~ #minecraft:crops[age=3] run clone ~ ~ ~ ~ ~ ~ ~-1 ~ ~
+execute if block ~1 ~-1 ~ farmland if block ~1 ~ ~ #minecraft:crops[age=3] run clone ~ ~ ~ ~ ~ ~ ~1 ~ ~
+execute if block ~ ~-1 ~-1 farmland if block ~ ~ ~-1 #minecraft:crops[age=3] run clone ~ ~ ~ ~ ~ ~ ~ ~ ~-1
+execute if block ~ ~-1 ~1 farmland if block ~ ~ ~1 #minecraft:crops[age=3] run clone ~ ~ ~ ~ ~ ~ ~ ~ ~1

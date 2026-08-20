@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ farmland[moisture=0] align xyz run summon marker ~ ~ ~ {Tags:["wonders.item.gardens_hoe.boost_request","wonders.ticked"]}

@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "diamond_hoe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:custom_data": {
+                  "wonders.item.gardens_hoe": true
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Hoe of the Hanging Gardens",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Improve growth on tilled farmland",
+                  "italic": false
+                }
+              ],
+              "mode": "insert"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

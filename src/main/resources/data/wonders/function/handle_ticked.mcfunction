@@ -1,5 +1,6 @@
 execute if entity @s[tag=wonders.timed] run function wonders:handle_timed
 execute if entity @s[tag=wonders.item.statue] at @s if entity @e[distance=..100] run function wonders:item/statue/ability
+execute if entity @s[tag=wonders.item.gardens_hoe.boosted] at @s run function wonders:item/gardens_hoe/boost_tick
 execute if entity @s[tag=wonders.pyramid.defense] at @s run function wonders:pyramid/defense
 execute if entity @s[tag=wonders.statue.reward] at @s if entity @p[distance=..100] run function wonders:statue/reward
 execute if entity @s[tag=wonders.statue.health_checker] at @s if entity @p[distance=..100] run function wonders:statue/health_checker

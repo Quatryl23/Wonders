@@ -14,12 +14,18 @@
             },
             {
               "function": "minecraft:set_name",
-              "name": "Artemis' Bow"
+              "name": {
+                "text": "Artemis' Bow",
+                "italic": false
+              }
             },
             {
               "function": "minecraft:set_lore",
               "lore": [
-                "Surprise enemies with a prickly shower"
+                {
+                  "text": "Surprise enemies with a prickly shower",
+                  "italic": false
+                }
               ],
               "mode": "insert"
             },

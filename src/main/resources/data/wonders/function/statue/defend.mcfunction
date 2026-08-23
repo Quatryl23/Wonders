@@ -106,61 +106,7 @@ execute at @s run execute as @e[tag=wonders.statue.defend_lightning] at @s run p
 execute at @s run execute as @e[tag=wonders.statue.defend_lightning] at @s run particle instant_effect{color:[1.000,1.000,0.588]} ^2.427 ^ ^-1.763
 execute at @s run execute as @e[tag=wonders.statue.defend_lightning] at @s run particle instant_effect{color:[1.000,1.000,0.588]} ^2.853 ^ ^-0.927
 
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s if entity @p[distance=..25.5] run particle enchanted_hit ^ ^ ^
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=0.5..25.5] run particle enchanted_hit ^ ^ ^0.5
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=1..25.5] run particle enchanted_hit ^ ^ ^1
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=1.5..25.5] run particle enchanted_hit ^ ^ ^1.5
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=2..25.5] run particle enchanted_hit ^ ^ ^2
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=2.5..25.5] run particle enchanted_hit ^ ^ ^2.5
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=3..25.5] run particle enchanted_hit ^ ^ ^3
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=3.5..25.5] run particle enchanted_hit ^ ^ ^3.5
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=4..25.5] run particle enchanted_hit ^ ^ ^4
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=4.5..25.5] run particle enchanted_hit ^ ^ ^4.5
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=5..25.5] run particle enchanted_hit ^ ^ ^5
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=5.5..25.5] run particle enchanted_hit ^ ^ ^5.5
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=6..25.5] run particle enchanted_hit ^ ^ ^6
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=6.5..25.5] run particle enchanted_hit ^ ^ ^6.5
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=7..25.5] run particle enchanted_hit ^ ^ ^7
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=7.5..25.5] run particle enchanted_hit ^ ^ ^7.5
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=8..25.5] run particle enchanted_hit ^ ^ ^8
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=8.5..25.5] run particle enchanted_hit ^ ^ ^8.5
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=9..25.5] run particle enchanted_hit ^ ^ ^9
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=9.5..25.5] run particle enchanted_hit ^ ^ ^9.5
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=10..25.5] run particle enchanted_hit ^ ^ ^10
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=10.5..25.5] run particle enchanted_hit ^ ^ ^10.5
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=11..25.5] run particle enchanted_hit ^ ^ ^11
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=11.5..25.5] run particle enchanted_hit ^ ^ ^11.5
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=12..25.5] run particle enchanted_hit ^ ^ ^12
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=12.5..25.5] run particle enchanted_hit ^ ^ ^12.5
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=13..25.5] run particle enchanted_hit ^ ^ ^13
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=13.5..25.5] run particle enchanted_hit ^ ^ ^13.5
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=14..25.5] run particle enchanted_hit ^ ^ ^14
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=14.5..25.5] run particle enchanted_hit ^ ^ ^14.5
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=15..25.5] run particle enchanted_hit ^ ^ ^15
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=15.5..25.5] run particle enchanted_hit ^ ^ ^15.5
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=16..25.5] run particle enchanted_hit ^ ^ ^16
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=16.5..25.5] run particle enchanted_hit ^ ^ ^16.5
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=17..25.5] run particle enchanted_hit ^ ^ ^17
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=17.5..25.5] run particle enchanted_hit ^ ^ ^17.5
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=18..25.5] run particle enchanted_hit ^ ^ ^18
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=18.5..25.5] run particle enchanted_hit ^ ^ ^18.5
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=19..25.5] run particle enchanted_hit ^ ^ ^19
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=19.5..25.5] run particle enchanted_hit ^ ^ ^19.5
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=20..25.5] run particle enchanted_hit ^ ^ ^20
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=20.5..25.5] run particle enchanted_hit ^ ^ ^20.5
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=21..25.5] run particle enchanted_hit ^ ^ ^21
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=21.5..25.5] run particle enchanted_hit ^ ^ ^21.5
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=22..25.5] run particle enchanted_hit ^ ^ ^22
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=22.5..25.5] run particle enchanted_hit ^ ^ ^22.5
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=23..25.5] run particle enchanted_hit ^ ^ ^23
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=23.5..25.5] run particle enchanted_hit ^ ^ ^23.5
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=24..25.5] run particle enchanted_hit ^ ^ ^24
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=24.5..25.5] run particle enchanted_hit ^ ^ ^24.5
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s facing entity @p eyes if entity @p[distance=25..25.5] run particle enchanted_hit ^ ^ ^25
-
-execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s if entity @p[distance=..25.5] run execute at @p facing entity @n[type=copper_golem,tag=wonders.statue.defend] eyes if block ^ ^ ^1 #air if block ^ ^1 ^1 #air as @p run tp @s ^ ^ ^0.07
-
-
+execute at @s run execute as @n[tag=wonders.statue.statue_golem] if entity @e[tag=wonders.statue.defend,distance=..100] at @s if entity @p[distance=..25.5,gamemode=!creative] facing entity @p[gamemode=!creative] eyes run function wonders:statue/pull_player
 
 execute at @s run execute as @e[tag=wonders.statue.defend_slowness] at @s run effect give @a[distance=..3] slowness 1 2 true
 execute at @s run execute as @e[tag=wonders.statue.defend,scores={wonders.timer=40}] at @s run playsound block.note_block.harp hostile @a ^ ^ ^ 1 1

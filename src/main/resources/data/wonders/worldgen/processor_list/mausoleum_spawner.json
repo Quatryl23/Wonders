@@ -1,0 +1,54 @@
+[
+  {
+    "processor_type": "minecraft:rule",
+    "rules": [
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:soul_sand",
+          "probability": 0.1
+        },
+        "output_state": {
+          "Name": "minecraft:spawner"
+        },
+        "block_entity_modifier": {
+          "type": "minecraft:append_static",
+          "data": {"SpawnData":{"entity":{"id":"minecraft:skeleton","equipment":{"feet":{"id":"minecraft:iron_boots","count":1,"components":{"minecraft:enchantments":{"protection":2,"thorns":1}}},"legs":{"id":"minecraft:iron_leggings","count":1,"components":{"minecraft:enchantments":{"protection":2,"thorns":1}}},"chest":{"id":"minecraft:iron_chestplate","count":1,"components":{"minecraft:enchantments":{"protection":2,"thorns":1}}},"mainhand":{"id":"minecraft:iron_sword","count":1,"components":{"minecraft:enchantments":{"sharpness":5}}},"offhand":{"id":"minecraft:iron_sword","count":1,"components":{"minecraft:enchantments":{"sharpness":5}}}},"drop_chances":{"feet":0.000,"legs":0.000,"chest":0.000,"mainhand":0.000,"offhand":0.000},"active_effects":[{"id":"minecraft:regeneration","amplifier":1,"duration":-1,"show_particles":false},{"id":"minecraft:speed","amplifier":2,"duration":-1,"show_particles":false}],"attributes":[{"id":"minecraft:max_health","base":30},{"id":"minecraft:movement_speed","base":0.33}]}},"SpawnCount":1,"MinSpawnDelay":100,"MaxSpawnDelay":300,"MaxNearbyEntities":7,"RequiredPlayerRange":7,"SpawnRange":3}
+        }
+      },
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:soul_sand",
+          "probability": 0.1
+        },
+        "output_state": {
+          "Name": "minecraft:spawner"
+        },
+        "block_entity_modifier": {
+          "type": "minecraft:append_static",
+          "data": {"SpawnData":{"entity":{"id":"minecraft:skeleton","equipment":{"feet":{"id":"minecraft:chainmail_boots","count":1,"components":{"minecraft:enchantments":{"protection":3}}},"legs":{"id":"minecraft:chainmail_leggings","count":1,"components":{"minecraft:enchantments":{"protection":3}}},"chest":{"id":"minecraft:chainmail_chestplate","count":1,"components":{"minecraft:enchantments":{"protection":3}}},"head":{"id":"minecraft:chainmail_helmet","count":1,"components":{"minecraft:enchantments":{"protection":3}}},"mainhand":{"id":"minecraft:iron_axe","count":1,"components":{"minecraft:enchantments":{"sharpness":5},"minecraft:unbreakable":{}}},"offhand":{"id":"minecraft:shield","count":1,"components":{"minecraft:unbreakable":{}}}},"drop_chances":{"feet":0.000,"legs":0.000,"chest":0.000,"mainhand":0.000,"offhand":0.000},"active_effects":[{"id":"minecraft:regeneration","amplifier":1,"duration":-1,"show_particles":false}],"attributes":[{"id":"minecraft:max_health","base":50},{"id":"minecraft:movement_speed","base":0.2}]}},"SpawnCount":1,"MinSpawnDelay":100,"MaxSpawnDelay":300,"MaxNearbyEntities":7,"RequiredPlayerRange":7,"SpawnRange":3}
+        }
+      },
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:soul_sand",
+          "probability": 0.3
+        },
+        "output_state": {
+          "Name": "minecraft:coarse_dirt"
+        }
+      }
+    ]
+  }
+]

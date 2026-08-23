@@ -11,6 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
+                "minecraft:rarity": "uncommon",
                 "minecraft:unbreakable": {},
                 "minecraft:custom_data": {
                   "wonders.item.gardens_hoe": true
@@ -28,8 +29,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "Improve growth on tilled farmland",
-                  "italic": false
+                  "text": "Improve growth on tilled farmland"
                 }
               ],
               "mode": "insert"

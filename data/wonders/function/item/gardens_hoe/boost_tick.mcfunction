@@ -1,7 +1,6 @@
 execute unless predicate {condition:"minecraft:time_check",clock:"minecraft:overworld",value:0,period:20} run return fail
 execute unless block ~ ~ ~ farmland run kill @s
 execute unless block ~ ~ ~ farmland run return fail
-particle minecraft:happy_villager ~ ~2 ~ 2 0 2 1 4
 summon marker ~ ~ ~ {Tags:["wonders.item.gardens_hoe.boost_effect"]}
 summon marker ~ ~ ~ {Tags:["wonders.item.gardens_hoe.boost_effect"]}
 summon marker ~ ~ ~ {Tags:["wonders.item.gardens_hoe.boost_effect"]}

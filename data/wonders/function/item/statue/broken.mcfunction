@@ -1,2 +1,2 @@
-execute at @s run summon item ~ ~ ~ {Item:{id:"minecraft:waxed_copper_golem_statue",count:1,components:{"minecraft:custom_name":{"type":"text","text":"Zeus' Copper Defender"},"minecraft:lore":[{"type":"text","text":"Catalyzes the power of the Olymp when placed down"}],"minecraft:custom_data":{"wonders.item.statue":true},block_state:{copper_golem_pose:star}}}}
+execute at @s run summon item ~ ~ ~ {Item:{id:"minecraft:waxed_copper_golem_statue",count:1,components:{"minecraft:rarity":"uncommon","minecraft:custom_name":{"type":"text","text":"Zeus' Copper Defender","italic":false},"minecraft:lore":[{"type":"text","text":"Catalyzes the power of the Olymp"}],"minecraft:custom_data":{"wonders.item.statue":true},block_state:{copper_golem_pose:star}}}}
 kill @s

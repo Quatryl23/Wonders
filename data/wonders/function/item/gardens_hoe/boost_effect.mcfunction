@@ -8,3 +8,4 @@ execute positioned ~ ~-1 ~ if block ~ ~ ~ #minecraft:crops[age=3] run function w
 execute positioned ~ ~-1 ~ if block ~ ~ ~ #minecraft:crops[age=2] run function wonders:item/gardens_hoe/boost_effect_2
 execute positioned ~ ~-1 ~ if block ~ ~ ~ #minecraft:crops[age=1] run function wonders:item/gardens_hoe/boost_effect_1
 execute positioned ~ ~-1 ~ if block ~ ~ ~ #minecraft:crops[age=0] run function wonders:item/gardens_hoe/boost_effect_0
+particle minecraft:happy_villager ~ ~ ~ 0.6 0.1 0.6 1 8

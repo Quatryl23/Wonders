@@ -1,0 +1,32 @@
+{
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": {
+      "type": "minecraft:uniform",
+      "min": 16,
+      "max": 32
+    }
+  },
+  "gives": {
+    "id": "minecraft:map",
+    "count": 1
+  },
+  "given_item_modifiers": [
+    {
+      "function": "minecraft:exploration_map",
+      "destination": "wonders:statue",
+      "decoration": "minecraft:target_x",
+      "zoom": 4,
+      "search_radius": 5000,
+      "skip_existing_chunks": false
+    },
+    {
+      "function": "minecraft:set_name",
+      "name": {
+        "text": "The Statue of Zeus at Olympia Map",
+        "italic": false
+      }
+    }
+  ],
+  "max_uses": 1
+}

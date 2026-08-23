@@ -23,8 +23,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "Surprise enemies with a prickly shower",
-                  "italic": false
+                  "text": "Surprise enemies with a prickly shower"
                 }
               ],
               "mode": "insert"
@@ -32,6 +31,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
+                "minecraft:rarity": "uncommon",
                 "minecraft:unbreakable": {},
                 "minecraft:use_cooldown": {
                   "seconds": 30,

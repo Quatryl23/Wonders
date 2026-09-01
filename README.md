@@ -236,8 +236,8 @@ Try to find an entrance until you realize it was blocked years ago. Smart move o
   <summary><strong>Loot</strong></summary>
 
   - Bones
+  - Damaged military equipment (Armors, Weapons)
   - Ancient Debris
-  - Damaged military equipment
   <details>
     <summary><strong>Jar of Xerxes
     </strong></summary>

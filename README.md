@@ -205,6 +205,7 @@ When you approach this temple, be aware that Artemis is a great hunter and arche
 
   - Arrows
   - Remains of Artemis' hunted victims
+  - Ancient Debris
   <details>
     <summary><strong>Artemis' Bow
     </strong></summary>
@@ -235,7 +236,7 @@ Try to find an entrance until you realize it was blocked years ago. Smart move o
   <summary><strong>Loot</strong></summary>
 
   - Bones
-  - Ancient debris
+  - Ancient Debris
   - Damaged military equipment
   <details>
     <summary><strong>Jar of Xerxes

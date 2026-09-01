@@ -15,7 +15,7 @@ Once you've entered this giant piece of sandstone, you better find a way to navi
 
 <details>
   <summary><strong>Challenge</strong></summary>
-  Find a way through a giant maze inside the pyramid to find the burial chamber.
+  Find a way through a giant maze inside the pyramid to find the burial chamber
   <br>
   <br>
   <details>
@@ -33,7 +33,7 @@ Once you've entered this giant piece of sandstone, you better find a way to navi
   - Diamonds
   - Ancient Debris
   <details>
-    <summary><strong>Custom item</strong></summary>
+    <summary><strong>Unique item</strong></summary>
     
   *Coming soon*
   </details>
@@ -46,7 +46,7 @@ This terrace complex is said to contain more plants than the Nether and End dime
 
 <details>
   <summary><strong>Challenge</strong></summary>
-  Meet the villager at the top and play Hide and Seek. (Find them five times!)
+  Meet the villager at the top and play Hide and Seek (Find them five times!)
   <br>
   <br>
   <details>
@@ -80,7 +80,7 @@ No wonder there are so many shipwrecks in Minecraft considering how rarely a lig
 
 <details>
   <summary><strong>Challenge</strong></summary>
-  Reach the light on top of the lighthouse.
+  Reach the light on top of the lighthouse
   <br>
   <br>
   <details>
@@ -111,7 +111,7 @@ No wonder there are so many shipwrecks in Minecraft considering how rarely a lig
 ## The Colossus of Rhodes
 <img width="960" height="540" alt="colossus" src="https://github.com/user-attachments/assets/892bdc88-0204-4bdd-831f-549e41e01512" />
 
-From what I see, I'd say this one's to remember a successful raid on a trial chamber.
+From what I see, I'd say this one's to remember a successful raid on a trial chamber
 
 <details>
   <summary><strong>Challenge</strong></summary>
@@ -152,7 +152,7 @@ Yes, what you see is not the statue. But it's in that temple, I promise! And I w
 <details>
   <summary><strong>Challenge</strong></summary>
   
-  Disassemble the whole golden statue.
+  Disassemble the whole golden statue
   <br>
   <br>
   <details>

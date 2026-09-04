@@ -1,18 +1,18 @@
 {
-  "type": "minecraft:chest",
+  "type": "minecraft:gift",
   "pools": [
     {
       "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:ancient_debris",
+          "name": "emerald",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 2,
+                "min": 1,
                 "max": 4
               }
             }

@@ -1,0 +1,15 @@
+execute positioned ~ ~ ~ run function wonders:item/mausoleum_jar/scan_y
+execute positioned ~1 ~ ~ run function wonders:item/mausoleum_jar/scan_y
+execute positioned ~-1 ~ ~ run function wonders:item/mausoleum_jar/scan_y
+execute positioned ~2 ~ ~ run function wonders:item/mausoleum_jar/scan_y
+execute positioned ~-2 ~ ~ run function wonders:item/mausoleum_jar/scan_y
+execute positioned ~3 ~ ~ run function wonders:item/mausoleum_jar/scan_y
+execute positioned ~-3 ~ ~ run function wonders:item/mausoleum_jar/scan_y
+execute positioned ~4 ~ ~ run function wonders:item/mausoleum_jar/scan_y
+execute positioned ~-4 ~ ~ run function wonders:item/mausoleum_jar/scan_y
+execute positioned ~5 ~ ~ run function wonders:item/mausoleum_jar/scan_y
+execute positioned ~-5 ~ ~ run function wonders:item/mausoleum_jar/scan_y
+execute positioned ~6 ~ ~ run function wonders:item/mausoleum_jar/scan_y
+execute positioned ~-6 ~ ~ run function wonders:item/mausoleum_jar/scan_y
+execute positioned ~7 ~ ~ run function wonders:item/mausoleum_jar/scan_y
+execute positioned ~-7 ~ ~ run function wonders:item/mausoleum_jar/scan_y

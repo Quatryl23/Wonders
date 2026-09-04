@@ -1,0 +1,2 @@
+function wonders:colossus/level_2_end
+function wonders:colossus/remove_block

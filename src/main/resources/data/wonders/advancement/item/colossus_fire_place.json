@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "fire_placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:campfire"
+              ],
+              "components": {
+                "minecraft:custom_data": {
+                  "wonders.item.colossus_fire": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "wonders:item/colossus_fire/placed_fire"
+  }
+}

@@ -1,0 +1,2 @@
+execute as @a if predicate wonders:has_player_colossus_fire_on_cooldown run function wonders:item/colossus_fire/cooldown_player_tick
+execute if score Quatphil wonders.item.colossus_fire.active_cooldowns matches 1.. run schedule function wonders:item/colossus_fire/cooldown_tick 20t

@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:waxed_copper_golem_statue",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "wonders.item.statue": true
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Zeus' Copper Defender",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                "Catalyzes the power of the Olymp"
+              ],
+              "mode": "insert"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:block_state": {
+                  "copper_golem_pose": "star"
+                },
+                "minecraft:rarity": "uncommon"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:soul_campfire",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Weakened Light of Rhodes",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                "Don't worry! They say it never fully fades"
+              ],
+              "mode": "insert"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:rarity": "uncommon",
+                "minecraft:custom_data": {
+                  "wonders.item.colossus_fire": false
+                },
+                "minecraft:max_stack_size": 1,
+                "minecraft:max_damage": 100,
+                "minecraft:damage": 100,
+                "minecraft:damage_resistant": {
+                  "types": "#minecraft:is_fire"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

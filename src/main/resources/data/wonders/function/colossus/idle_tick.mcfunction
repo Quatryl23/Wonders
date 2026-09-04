@@ -1,0 +1,2 @@
+execute if predicate {condition:"minecraft:time_check",clock:"minecraft:overworld",value:0,period:2} as @n[tag=wonders.colossus.particle] at @s run function wonders:colossus/idle_animation
+execute if entity @p[gamemode=!spectator,distance=..1.1] run function wonders:colossus/start_game

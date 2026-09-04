@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "wonders:blocks/colossus_fire_weak",
+          "functions": [
+            {
+              "function": "minecraft:sequence",
+              "functions": [
+                {
+                  "function": "minecraft:set_damage",
+                  "damage": 0.98,
+                  "add": false
+                },
+                {
+                  "function": "minecraft:reference",
+                  "name": "wonders:colossus_fire_cooldown"
+                },
+                {
+                  "function": "minecraft:reference",
+                  "name": "wonders:colossus_fire_cooldown"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

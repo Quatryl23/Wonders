@@ -7,7 +7,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "wonders:mausoleum",
-        "processors": "wonders:mausoleum_spawner"
+        "processors": "wonders:mausoleum_coffins"
       }
     }
   ]

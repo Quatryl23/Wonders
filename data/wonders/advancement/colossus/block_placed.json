@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "block_placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structures": "wonders:colossus"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "wonders:colossus/placed_block"
+  }
+}

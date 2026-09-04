@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:decorated_pot",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "wonders.item.mausoleum_jar": true
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Jar of Xerxes",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                "Earn your subjects' respect and emeralds"
+              ],
+              "mode": "insert"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:pot_decorations": [
+                  "minecraft:brick",
+                  "minecraft:brick",
+                  "minecraft:brick",
+                  "minecraft:skull_pottery_sherd"
+                ],
+                "minecraft:rarity": "uncommon"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

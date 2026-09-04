@@ -1,0 +1,2 @@
+summon vex ~ ~-4 ~ {equipment:{mainhand:{id:"minecraft:copper_sword",count:1}},drop_chances:{mainhand:0.000}}
+summon vex ~ ~-4 ~ {equipment:{mainhand:{id:"minecraft:copper_sword",count:1}},drop_chances:{mainhand:0.000}}

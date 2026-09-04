@@ -1,0 +1,2 @@
+execute if data block ~ ~ ~ components.minecraft:custom_data."wonders.item.colossus_fire" if block ~ ~ ~ minecraft:campfire align xyz run function wonders:item/colossus_fire/trigger_ability
+execute if data block ~ ~ ~ components.minecraft:custom_data."wonders.item.colossus_fire" if block ~ ~ ~ minecraft:soul_campfire align xyz run function wonders:item/colossus_fire/replace_fire_on_cooldown

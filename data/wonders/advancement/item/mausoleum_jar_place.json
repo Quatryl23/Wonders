@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "jar_placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:decorated_pot"
+              ],
+              "components": {
+                "minecraft:custom_data": {
+                  "wonders.item.mausoleum_jar": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "wonders:item/mausoleum_jar/placed_jar"
+  }
+}

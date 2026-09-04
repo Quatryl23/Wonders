@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "enemy_killed": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "minecraft:team": "wonders.mausoleum.fight"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "wonders:mausoleum/enemy_killed"
+  }
+}

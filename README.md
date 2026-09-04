@@ -223,13 +223,15 @@ Try to find an entrance until you realize it was blocked years ago. Smart move o
 <details>
   <summary><strong>Challenge</strong></summary>
   
-  Open the coffins and fight the undead warriors
+  Survive multiple waves of skeletons whose rest in peace was disturbed
   <br>
   <br>
   <details>
     <summary><strong>Dangers</strong></summary>
 
-  - Zombies and Skeletons with military equipment spawning over and over again
+  - Skeletons with powerful weapons
+  - A barrier preventing you from escaping death
+  - Mausolos and Artemisia, the masters of the Mausoleum
   </details>
 </details>
 <details>

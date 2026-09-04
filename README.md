@@ -1,5 +1,7 @@
 <img width="1000" height="256" alt="wonders_header" src="https://github.com/user-attachments/assets/74d5129e-ab46-4854-8cc0-eec61063c609" />
 
+| [Download as Datapack](https://www.curseforge.com/minecraft/data-packs/wonders) | [Download as Mod](https://www.curseforge.com/minecraft/mc-mods/wonders) |
+|------------------------------------------------------------------|----------------------------------------------------------------------------------------|
 
 # The Seven Wonders of the Ancient World in Minecraft
 - Seven new, rare structures of impressive size

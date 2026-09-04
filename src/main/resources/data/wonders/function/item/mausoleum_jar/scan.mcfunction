@@ -1,0 +1,1 @@
+execute if data block ~ ~ ~ components.minecraft:custom_data."wonders.item.mausoleum_jar" align xyz run summon marker ~ ~ ~ {Tags:["wonders.item.mausoleum_jar","wonders.ticked"]}

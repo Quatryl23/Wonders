@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "fire_on_cooldown_placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:soul_campfire"
+              ],
+              "components": {
+                "minecraft:custom_data": {
+                  "wonders.item.colossus_fire": false
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "wonders:item/colossus_fire/placed_fire_on_cooldown"
+  }
+}

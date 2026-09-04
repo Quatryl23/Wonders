@@ -3,6 +3,8 @@
     "#minecraft:undead",
     "#minecraft:illager",
     "minecraft:creeper",
-    "minecraft:witch"
+    "minecraft:witch",
+    "minecraft:silverfish",
+    "minecraft:endermite"
   ]
 }

@@ -1,0 +1,2 @@
+execute if entity @p[gamemode=!spectator,distance=..1] run function wonders:colossus/end_game
+execute unless entity @s[tag=wonders.colossus.reset_light] positioned ~-100 ~-5 ~-100 unless entity @p[gamemode=!spectator,dx=200,dy=100,dz=200] run function wonders:colossus/target_height_reset

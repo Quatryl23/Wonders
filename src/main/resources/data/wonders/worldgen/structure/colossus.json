@@ -9,7 +9,7 @@
       "spawns": []
     }
   },
-  "start_pool": "wonders:colossus/colossus",
+  "start_pool": "wonders:colossus/main",
   "size": 1,
   "start_height": {
     "absolute": 0

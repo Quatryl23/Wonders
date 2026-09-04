@@ -1,0 +1,106 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#minecraft:replaceable"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 1,
+      "predicate": {
+        "block": {
+          "blocks": "#minecraft:air"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 1,
+      "predicate": {
+        "block": {
+          "blocks": "#minecraft:air"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 2,
+      "predicate": {
+        "block": {
+          "blocks": "#minecraft:air"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 3,
+      "predicate": {
+        "block": {
+          "blocks": "#minecraft:air"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 4,
+      "predicate": {
+        "block": {
+          "blocks": "#minecraft:air"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:location_check",
+        "offsetY": -1,
+        "predicate": {
+          "block": {
+            "blocks": "#wonders:colossus_parkour"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:location_check",
+        "offsetY": -2,
+        "predicate": {
+          "block": {
+            "blocks": "#wonders:colossus_parkour"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:location_check",
+        "offsetY": -3,
+        "predicate": {
+          "block": {
+            "blocks": "#wonders:colossus_parkour"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:location_check",
+        "offsetY": -4,
+        "predicate": {
+          "block": {
+            "blocks": "#wonders:colossus_parkour"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -116,13 +116,17 @@ From what I see, I'd say this one's to remember a successful raid on a trial cha
 <details>
   <summary><strong>Challenge</strong></summary>
   
-  *Coming soon*
+  Finish the parkour leading up to the torch shining
+  above the beach of Rhodes
   <br>
   <br>
   <details>
     <summary><strong>Dangers</strong></summary>
     
-  *Coming soon*
+  - Gravity (Falling)
+  - Gravity (Falling, heavy copper)
+  - Vexing enforcers of gravity
+
   </details>
 </details>
 <details>

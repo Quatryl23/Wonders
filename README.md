@@ -221,7 +221,7 @@ When you approach this temple, be aware that Artemis is a great hunter and arche
   </details>
 </details>
 
-## The Mausoleum of Halicarnassus
+## The Mausoleum at Halicarnassus
 <img width="960" height="540" alt="mausoleum" src="https://github.com/user-attachments/assets/a2ae9da9-796d-4a9a-a524-90e7ff3e2aae" />
 
 Try to find an entrance until you realize it was blocked years ago. Smart move of a dead man who is too lazy to build a giant maze around his tomb. But is that enough to stop potential tomb raiders? I would defend my grave with my life!

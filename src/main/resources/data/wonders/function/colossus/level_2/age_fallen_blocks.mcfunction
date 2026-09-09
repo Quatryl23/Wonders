@@ -1,4 +1,4 @@
-playsound minecraft:block.copper.hit block @p[distance=..10]
+playsound minecraft:block.copper.hit block @a
 setblock ~ ~20 ~ air
 fill ~-2 ~ ~-2 ~2 ~11 ~2 air replace waxed_oxidized_copper
 fill ~-2 ~ ~-2 ~2 ~11 ~2 waxed_oxidized_copper replace waxed_weathered_copper

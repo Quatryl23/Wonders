@@ -1,4 +1,5 @@
 execute as @s[tag=!wonders.statue.ready] run function wonders:statue/prepare
+execute as @s[tag=!wonders.statue.started] if score @s wonders.statue.health matches ..71 run function wonders:statue/start
 
 #left leg
 execute as @s[tag=!wonders.statue.block_broken_1] unless block ^1 ^-3 ^-3 minecraft:gold_block run scoreboard players remove @s wonders.statue.health 1
@@ -192,5 +193,5 @@ execute as @s[scores={wonders.statue.health=15}] run tag @s add wonders.statue.s
 execute as @s[scores={wonders.statue.health=0}] run function wonders:statue/defeat
 
 
-execute at @s run bossbar set wonders:statue players @a[distance=..100]
+execute if entity @s[tag=wonders.statue.started] run bossbar set wonders:statue players @a[distance=..50]
 execute as @s store result bossbar wonders:statue value run scoreboard players get @s wonders.statue.health

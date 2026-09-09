@@ -7,5 +7,5 @@ tag @s add wonders.colossus.block
 tag @s add wonders.ticked
 execute unless entity @s[tag=wonders.colossus.first_block] run tag @s add wonders.timed
 setblock ~ ~ ~ waxed_chiseled_copper
-playsound minecraft:block.copper.place block @a[distance=..10]
+playsound minecraft:block.copper.place block @a
 execute as @n[tag=wonders.colossus.height] run function wonders:colossus/increase_height

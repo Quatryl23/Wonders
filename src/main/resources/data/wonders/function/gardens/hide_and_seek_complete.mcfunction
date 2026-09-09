@@ -7,4 +7,4 @@ execute at @s run kill @e[tag=wonders.gardens.hiding_spot,distance=..100]
 kill @n[tag=wonders.gardens.starting_spot]
 tp @s ~ 0 ~
 kill @s
-bossbar set wonders:gardens visible false
+bossbar remove wonders:gardens

@@ -1,5 +1,7 @@
 <img width="1000" height="256" alt="wonders_header" src="https://github.com/user-attachments/assets/74d5129e-ab46-4854-8cc0-eec61063c609" />
 
+| [Download as Datapack](https://www.curseforge.com/minecraft/data-packs/wonders) | [Download as Mod](https://www.curseforge.com/minecraft/mc-mods/wonders) |
+|------------------------------------------------------------------|----------------------------------------------------------------------------------------|
 
 # The Seven Wonders of the Ancient World in Minecraft
 - Seven new, rare structures of impressive size
@@ -116,13 +118,17 @@ From what I see, I'd say this one's to remember a successful raid on a trial cha
 <details>
   <summary><strong>Challenge</strong></summary>
   
-  *Coming soon*
+  Finish the parkour leading up to the torch shining
+  above the beach of Rhodes
   <br>
   <br>
   <details>
     <summary><strong>Dangers</strong></summary>
     
-  *Coming soon*
+  - Gravity (Falling)
+  - Gravity (Falling, heavy copper)
+  - Vexing enforcers of gravity
+
   </details>
 </details>
 <details>
@@ -215,7 +221,7 @@ When you approach this temple, be aware that Artemis is a great hunter and arche
   </details>
 </details>
 
-## The Mausoleum of Halicarnassus
+## The Mausoleum at Halicarnassus
 <img width="960" height="540" alt="mausoleum" src="https://github.com/user-attachments/assets/a2ae9da9-796d-4a9a-a524-90e7ff3e2aae" />
 
 Try to find an entrance until you realize it was blocked years ago. Smart move of a dead man who is too lazy to build a giant maze around his tomb. But is that enough to stop potential tomb raiders? I would defend my grave with my life!
@@ -223,13 +229,15 @@ Try to find an entrance until you realize it was blocked years ago. Smart move o
 <details>
   <summary><strong>Challenge</strong></summary>
   
-  Open the coffins and fight the undead warriors
+  Survive multiple waves of skeletons whose rest in peace was disturbed
   <br>
   <br>
   <details>
     <summary><strong>Dangers</strong></summary>
 
-  - Zombies and Skeletons with military equipment spawning over and over again
+  - Skeletons with powerful weapons
+  - A barrier preventing you from escaping death
+  - Mausolos and Artemisia, the masters of the Mausoleum
   </details>
 </details>
 <details>

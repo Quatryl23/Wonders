@@ -7,7 +7,7 @@
     "description": "Find a Wonder of the World",
     "frame": "task",
     "show_toast": true,
-    "announce_to_chat": false,
+    "announce_to_chat": true,
     "hidden": true
   },
   "parent": "minecraft:adventure/root",

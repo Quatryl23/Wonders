@@ -1,5 +1,5 @@
-execute if score @n[tag=wonders.colossus.height] wonders.colossus.height matches 17 run return run function wonders:colossus/level_1
-execute if score @n[tag=wonders.colossus.height] wonders.colossus.height matches 36 run return run function wonders:colossus/level_2
+execute if score @n[tag=wonders.colossus.height] wonders.colossus.height matches 17 run return run function wonders:colossus/level_1/start
+execute if score @n[tag=wonders.colossus.height] wonders.colossus.height matches 36 run return run function wonders:colossus/level_2/start
 execute if score @n[tag=wonders.colossus.height] wonders.colossus.height matches 51 run return run function wonders:colossus/target_height
 execute if entity @s[tag=wonders.colossus.target_height_block] run return run function wonders:colossus/target_height_new_block
 execute if entity @s[tag=wonders.colossus.first_block] run tag @s add wonders.timed

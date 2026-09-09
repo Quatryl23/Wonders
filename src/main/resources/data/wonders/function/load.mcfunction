@@ -17,6 +17,6 @@ team add wonders.temple.artemis
 team modify wonders.temple.artemis friendlyFire false
 scoreboard objectives add wonders.mausoleum.fight dummy
 scoreboard objectives add wonders.mausoleum.mausolus dummy
-scoreboard objectives add wonders.mausoleum.artemisia_2 dummy
+scoreboard objectives add wonders.mausoleum.artemisia dummy
 team add wonders.mausoleum.fight
 team modify wonders.mausoleum.fight friendlyFire false

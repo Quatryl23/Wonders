@@ -9,6 +9,15 @@
         "location": "wonders:pyramid/side_medium_level_inner_1",
         "processors": "minecraft:empty"
       }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "wonders:pyramid/side_medium_level_inner_2",
+        "processors": "minecraft:empty"
+      }
     }
   ]
 }

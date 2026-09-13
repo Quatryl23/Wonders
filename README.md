@@ -41,6 +41,7 @@ Once you've entered this giant piece of sandstone, you better find a way to navi
   - Eye of Ender
   - Tracks and follows the nearest undead less than 50 blocks away
   - Mobs (accidentally or deliberately) hit by Cheops' Eye are damaged and start glowing for 10 seconds
+  - If an undead is hit, all mobs within a small radius take damage and all undead within a large radius start glowing
   - After Cheops' Eye has hit a mob, it returns to its thrower
 
   </details>

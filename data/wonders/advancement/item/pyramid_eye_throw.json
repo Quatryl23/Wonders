@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "throw": {
+      "trigger": "minecraft:used_ender_eye"
+    }
+  },
+  "rewards": {
+    "function": "wonders:item/pyramid_eye/throw"
+  }
+}

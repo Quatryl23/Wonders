@@ -1,5 +1,9 @@
 scoreboard objectives add wonders.timer dummy
 scoreboard objectives add wonders.random dummy
+scoreboard objectives add wonders.item.pyramid_eye.distance dummy
+scoreboard objectives add wonders.item.pyramid_eye.x dummy
+scoreboard objectives add wonders.item.pyramid_eye.y dummy
+scoreboard objectives add wonders.item.pyramid_eye.z dummy
 scoreboard objectives add wonders.item.lighthouse_spyglass.distance dummy
 scoreboard objectives add wonders.item.lighthouse_spyglass.min_distance dummy
 scoreboard objectives add wonders.item.lighthouse_spyglass.rotation dummy

@@ -1,10 +1,13 @@
 execute if entity @s[tag=wonders.timed] run function wonders:handle_timed
+execute if entity @s[tag=wonders.item.pyramid_eye] run function wonders:item/pyramid_eye/tick
+execute if entity @s[tag=wonders.item.pyramid_eye.hit] run function wonders:item/pyramid_eye/hit_tick
 execute if entity @s[tag=wonders.item.statue] if entity @e[distance=..100] run function wonders:item/statue/ability
 execute if entity @s[tag=wonders.item.gardens_hoe.boosted] run function wonders:item/gardens_hoe/boost_tick
 execute if entity @s[tag=wonders.item.mausoleum_jar] run function wonders:item/mausoleum_jar/tick
 execute if entity @s[tag=wonders.item.colossus_fire.lighter] run function wonders:item/colossus_fire/ability
 execute if entity @s[tag=wonders.item.colossus_fire.light_timer] run function wonders:item/colossus_fire/light_timer
-execute if entity @s[tag=wonders.pyramid.defense] run function wonders:pyramid/defense
+execute if entity @s[tag=wonders.pyramid.defense_center] run function wonders:pyramid/defense_center
+execute if entity @s[tag=wonders.pyramid.defense_top] run function wonders:pyramid/defense_top
 execute if entity @s[tag=wonders.statue.reward] if entity @p[distance=..100,gamemode=!spectator] run function wonders:statue/reward
 execute if entity @s[tag=wonders.statue.health_checker] if entity @p[distance=..100,gamemode=!spectator] run function wonders:statue/health_checker
 execute if entity @s[tag=wonders.temple.artemis_statue] if entity @p[distance=..5,gamemode=!spectator] unless entity @n[tag=wonders.temple.artemis] run function wonders:temple/prepare_spawn

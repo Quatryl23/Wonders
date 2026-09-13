@@ -1,0 +1,4 @@
+data modify entity @s Motion set from entity @s Item.components."minecraft:custom_data"."wonders.item.pyramid_eye.motion"
+execute unless entity @s[tag=wonders.item.pyramid_eye.return] positioned ~-0.1 ~-0.1 ~-0.1 as @e[dx=0.2,dy=0.2,dz=0.2,sort=nearest,tag=!wonders.item.pyramid_eye.owner] if data entity @s attributes run return run function wonders:item/pyramid_eye/hit
+execute if entity @s[tag=wonders.item.pyramid_eye.return] positioned ~-0.1 ~-0.1 ~-0.1 at @n[tag=wonders.item.pyramid_eye.owner,dx=0.2,dy=0.2,dz=0.2] run return run function wonders:item/pyramid_eye/hit_owner
+execute if score @s wonders.timer matches 1 run return run function wonders:item/pyramid_eye/new_eye

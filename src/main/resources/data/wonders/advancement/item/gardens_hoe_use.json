@@ -7,7 +7,7 @@
           {
             "condition": "minecraft:match_tool",
             "predicate": {
-              "items": "minecraft:diamond_hoe",
+              "items": "#minecraft:hoes",
               "components": {
                 "minecraft:custom_data": {
                   "wonders.item.gardens_hoe": true

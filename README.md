@@ -34,10 +34,15 @@ Once you've entered this giant piece of sandstone, you better find a way to navi
   - Emeralds
   - Diamonds
   - Ancient Debris
+  - Cheops' Eye
   <details>
-    <summary><strong>Unique item</strong></summary>
-    
-  *Coming soon*
+    <summary><strong>Cheops' Eye</strong></summary>
+
+  - Eye of Ender
+  - Tracks and follows the nearest undead less than 50 blocks away
+  - Mobs (accidentally or deliberately) hit by Cheops' Eye are damaged and start glowing for 10 seconds
+  - After Cheops' Eye has hit a mob, it returns to its thrower
+
   </details>
 </details>
 

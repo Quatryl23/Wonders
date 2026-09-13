@@ -77,7 +77,7 @@ This terrace complex is said to contain more plants than the Nether and End dime
   - Farmland tilled with the Hoe of the Hanging Gardens will cause improved plant growth in a 9x9 block area:
     - Crops will spread to adjacent open farmland
     - Crops will overgrow adjacent crops with a slightly lower stage of growth
-  - Tilling farmland will cause other affected farmland up to 100 blocks away to stop their improved plant growth
+  - Tilling farmland will cause other affected farmland up to 128 blocks away to stop their improved plant growth
   </details>
 </details>
 

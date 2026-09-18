@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "spyglass",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Lighthouse Keeper's Spyglass",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                "Points the way to villages and shipwrecks"
+              ],
+              "mode": "insert"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "wonders.item.lighthouse_spyglass": true
+                },
+                "minecraft:rarity": "uncommon",
+                "minecraft:use_cooldown": {
+                  "seconds": 30,
+                  "cooldown_group": "wonders.item.lighthouse_spyglass"
+                },
+                "minecraft:damage_resistant": {
+                  "types": "#minecraft:is_fire"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "soul_placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:soul_lantern"
+              ],
+              "components": {
+                "minecraft:custom_data": {
+                  "wonders.lighthouse.soul": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "wonders:lighthouse/placed_soul"
+  }
+}

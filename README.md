@@ -88,13 +88,13 @@ No wonder there are so many shipwrecks in Minecraft considering how rarely a lig
 
 <details>
   <summary><strong>Challenge</strong></summary>
-  Reach the light on top of the lighthouse
+  Free the souls of drowned sailors haunting the lighthouse
   <br>
   <br>
   <details>
     <summary><strong>Dangers</strong></summary>
     
-  - Angry Drowned
+  - Drowned sailors
   </details>
 </details>
 <details>

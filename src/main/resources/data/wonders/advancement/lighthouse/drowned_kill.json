@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "killed_drowned": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "minecraft:entity_tags": {
+          "all_of": [
+            "wonders.lighthouse.drowned"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "wonders:lighthouse/killed_drowned"
+  }
+}

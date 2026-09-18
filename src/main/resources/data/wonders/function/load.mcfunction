@@ -16,6 +16,8 @@ scoreboard objectives add wonders.colossus.blocks_placed dummy
 scoreboard objectives add wonders.statue.health dummy
 scoreboard objectives add wonders.statue.fire_timer dummy
 scoreboard objectives add wonders.temple.health dummy
+scoreboard objectives add wonders.lighthouse.fire dummy
+scoreboard objectives add wonders.lighthouse.kills dummy
 scoreboard objectives add wonders.gardens.hide_and_seek dummy
 team add wonders.temple.artemis
 team modify wonders.temple.artemis friendlyFire false
@@ -24,3 +26,5 @@ scoreboard objectives add wonders.mausoleum.mausolus dummy
 scoreboard objectives add wonders.mausoleum.artemisia dummy
 team add wonders.mausoleum.fight
 team modify wonders.mausoleum.fight friendlyFire false
+team add wonders.lighthouse.rip
+team modify wonders.lighthouse.rip color gray

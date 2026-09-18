@@ -24,6 +24,11 @@ execute if entity @s[tag=wonders.colossus.game] run bossbar set wonders:colossus
 execute if entity @s[tag=wonders.colossus.block] run function wonders:colossus/block_tick
 execute if entity @s[tag=wonders.colossus.light] run function wonders:colossus/light_tick
 execute if entity @s[tag=wonders.gardens.starting_spot] run bossbar set wonders:gardens players @a[distance=..100]
+execute if entity @s[tag=wonders.lighthouse.drowned] run function wonders:lighthouse/drowned_tick
+execute if entity @s[tag=wonders.lighthouse.spawner] run function wonders:lighthouse/spawner_tick
+execute if entity @s[tag=wonders.lighthouse.center_fire] run function wonders:lighthouse/fire_tick
+execute if entity @s[tag=wonders.lighthouse.reward] run function wonders:lighthouse/reward_tick
+execute if entity @s[tag=wonders.lighthouse.actionbar] run function wonders:lighthouse/actionbar_tick
 execute if entity @s[tag=wonders.mausoleum.start] if entity @p[distance=..5,gamemode=!spectator] run function wonders:mausoleum/prepare_start
 execute if entity @s[tag=wonders.mausoleum.fight] run function wonders:mausoleum/fight
 execute if entity @s[tag=wonders.mausoleum.fight,tag=wonders.mausoleum.wave_4,tag=!wonders.mausoleum.wave_5,tag=!wonders.mausoleum.fighting] run function wonders:mausoleum/wave_5

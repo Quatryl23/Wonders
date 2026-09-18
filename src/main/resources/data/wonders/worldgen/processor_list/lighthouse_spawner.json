@@ -16,7 +16,7 @@
         },
         "block_entity_modifier": {
           "type": "minecraft:append_static",
-          "data": {"MaxNearbyEntities": 8, "RequiredPlayerRange": 32, "SpawnCount": 4, "SpawnData": {"entity": {"id": "minecraft:drowned"}}, "MaxSpawnDelay": 300, "SpawnRange": 8, "MinSpawnDelay": 150}
+          "data": {"Tags": ["wonders.ticked","wonders.lighthouse.drowned"],"DeathLootTable": "wonders:entities/lighthouse_drowned","MaxNearbyEntities": 8, "RequiredPlayerRange": 32, "SpawnCount": 4, "SpawnData": {"entity": {"id": "minecraft:drowned"}}, "MaxSpawnDelay": 300, "SpawnRange": 8, "MinSpawnDelay": 150}
         }
       }
     ]

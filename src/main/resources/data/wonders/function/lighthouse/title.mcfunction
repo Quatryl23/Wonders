@@ -1,0 +1,4 @@
+execute if score @n[tag=wonders.lighthouse.center_fire,distance=..200] wonders.lighthouse.kills matches 0 run return run title @s actionbar {text:"Guide the drowned sailors to rest in peace",color:"dark_aqua"}
+execute if score @n[tag=wonders.lighthouse.center_fire,distance=..200] wonders.lighthouse.kills matches ..4000 run return run title @s actionbar {text:"Guide the drowned sailors to rest in PEACE",color:"dark_aqua"}
+execute if score @n[tag=wonders.lighthouse.center_fire,distance=..200] wonders.lighthouse.kills matches ..10000 run return run title @s actionbar {text:"Guide the drowned sailors to eternal sleep",color:"dark_aqua"}
+execute if score @n[tag=wonders.lighthouse.center_fire,distance=..200] wonders.lighthouse.kills matches 10001.. run return run title @s actionbar [{text:"Guide the drowned sailors to eternal sleep ",color:"dark_aqua"},{atlas:"minecraft:blocks",sprite:"minecraft:block/bed_head_north",fallback:"(White bed)"}]

@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ soul_lantern align xyz run function wonders:lighthouse/drop_placed_soul

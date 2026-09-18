@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:soul_lantern",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Sailor's Soul",
+                "color": "#ffffff",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                "Set it free in the fire at",
+                "the top of the lighthouse"
+              ],
+              "mode": "insert"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:vanishing_curse": 1
+              }
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:enchantments": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:rarity": "common"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "wonders.lighthouse.soul": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

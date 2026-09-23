@@ -7,5 +7,8 @@ execute unless entity @e[tag=wonders.mausoleum.artemisia_2] run bossbar set wond
 execute unless entity @e[tag=wonders.colossus.game] run bossbar set wonders:colossus players @s
 execute unless entity @e[tag=wonders.colossus.level_1] run bossbar set wonders:colossus_1 players @s
 execute unless entity @e[tag=wonders.colossus.level_2] run bossbar set wonders:colossus_2 players @s
+execute unless entity @e[tag=wonders.pyramid.defense_center] run bossbar set wonders:pyramid_center players @s
+execute unless entity @e[tag=wonders.pyramid.defense_top] run bossbar set wonders:pyramid_top players @s
+execute unless entity @e[tag=wonders.lighthouse.center_fire] run bossbar set wonders:lighthouse players @s
 
 execute as @e[tag=wonders.ticked] at @s run function wonders:handle_ticked

@@ -9,15 +9,15 @@
         "input_predicate": {
           "predicate_type": "minecraft:random_blockstate_match",
           "block_state": {
-            "Name": "minecraft:sandstone_slab",
-            "Properties": {
+            "id": "minecraft:sandstone_slab",
+            "properties": {
               "type": "bottom"
             }
           },
           "probability": 0.2
         },
         "output_state": {
-          "Name": "minecraft:air"
+          "id": "minecraft:air"
         }
       },
       {
@@ -27,16 +27,16 @@
         "input_predicate": {
           "predicate_type": "minecraft:random_blockstate_match",
           "block_state": {
-            "Name": "minecraft:sandstone_slab",
-            "Properties": {
+            "id": "minecraft:sandstone_slab",
+            "properties": {
               "type": "double"
             }
           },
           "probability": 0.4
         },
         "output_state": {
-          "Name": "minecraft:sandstone_slab",
-          "Properties": {
+          "id": "minecraft:sandstone_slab",
+          "properties": {
             "type": "bottom"
           }
         }
@@ -48,14 +48,14 @@
         "input_predicate": {
           "predicate_type": "minecraft:blockstate_match",
           "block_state": {
-            "Name": "minecraft:sandstone_slab",
-            "Properties": {
+            "id": "minecraft:sandstone_slab",
+            "properties": {
               "type": "double"
             }
           }
         },
         "output_state": {
-          "Name": "minecraft:sandstone"
+          "id": "minecraft:sandstone"
         }
       },
       {
@@ -65,8 +65,8 @@
         "input_predicate": {
           "predicate_type": "minecraft:random_blockstate_match",
           "block_state": {
-            "Name": "minecraft:sandstone_stairs",
-            "Properties": {
+            "id": "minecraft:sandstone_stairs",
+            "properties": {
               "facing": "north",
               "half": "top"
             }
@@ -74,7 +74,7 @@
           "probability": 0.6
         },
         "output_state": {
-          "Name": "minecraft:sandstone"
+          "id": "minecraft:sandstone"
         }
       },
       {
@@ -84,8 +84,8 @@
         "input_predicate": {
           "predicate_type": "minecraft:random_blockstate_match",
           "block_state": {
-            "Name": "minecraft:sandstone_stairs",
-            "Properties": {
+            "id": "minecraft:sandstone_stairs",
+            "properties": {
               "facing": "north",
               "half": "top"
             }
@@ -93,7 +93,7 @@
           "probability": 0.46
         },
         "output_state": {
-          "Name": "minecraft:sandstone_slab"
+          "id": "minecraft:sandstone_slab"
         }
       },
       {
@@ -103,8 +103,8 @@
         "input_predicate": {
           "predicate_type": "minecraft:random_blockstate_match",
           "block_state": {
-            "Name": "minecraft:sandstone_stairs",
-            "Properties": {
+            "id": "minecraft:sandstone_stairs",
+            "properties": {
               "facing": "north",
               "half": "bottom"
             }
@@ -112,7 +112,7 @@
           "probability": 0.4
         },
         "output_state": {
-          "Name": "minecraft:air"
+          "id": "minecraft:air"
         }
       },
       {
@@ -122,8 +122,8 @@
         "input_predicate": {
           "predicate_type": "minecraft:random_blockstate_match",
           "block_state": {
-            "Name": "minecraft:sandstone_stairs",
-            "Properties": {
+            "id": "minecraft:sandstone_stairs",
+            "properties": {
               "facing": "north",
               "half": "bottom"
             }
@@ -131,7 +131,7 @@
           "probability": 0.6
         },
         "output_state": {
-          "Name": "minecraft:sandstone_slab"
+          "id": "minecraft:sandstone_slab"
         }
       },
       {
@@ -141,8 +141,8 @@
         "input_predicate": {
           "predicate_type": "minecraft:random_blockstate_match",
           "block_state": {
-            "Name": "minecraft:sandstone_stairs",
-            "Properties": {
+            "id": "minecraft:sandstone_stairs",
+            "properties": {
               "facing": "south",
               "half": "top"
             }
@@ -150,7 +150,7 @@
           "probability": 0.6
         },
         "output_state": {
-          "Name": "minecraft:sandstone"
+          "id": "minecraft:sandstone"
         }
       },
       {
@@ -160,8 +160,8 @@
         "input_predicate": {
           "predicate_type": "minecraft:random_blockstate_match",
           "block_state": {
-            "Name": "minecraft:sandstone_stairs",
-            "Properties": {
+            "id": "minecraft:sandstone_stairs",
+            "properties": {
               "facing": "south",
               "half": "top"
             }
@@ -169,7 +169,7 @@
           "probability": 0.46
         },
         "output_state": {
-          "Name": "minecraft:sandstone_slab"
+          "id": "minecraft:sandstone_slab"
         }
       },
       {
@@ -179,8 +179,8 @@
         "input_predicate": {
           "predicate_type": "minecraft:random_blockstate_match",
           "block_state": {
-            "Name": "minecraft:sandstone_stairs",
-            "Properties": {
+            "id": "minecraft:sandstone_stairs",
+            "properties": {
               "facing": "south",
               "half": "bottom"
             }
@@ -188,7 +188,7 @@
           "probability": 0.4
         },
         "output_state": {
-          "Name": "minecraft:air"
+          "id": "minecraft:air"
         }
       },
       {
@@ -198,8 +198,8 @@
         "input_predicate": {
           "predicate_type": "minecraft:random_blockstate_match",
           "block_state": {
-            "Name": "minecraft:sandstone_stairs",
-            "Properties": {
+            "id": "minecraft:sandstone_stairs",
+            "properties": {
               "facing": "south",
               "half": "bottom"
             }
@@ -207,7 +207,7 @@
           "probability": 0.6
         },
         "output_state": {
-          "Name": "minecraft:sandstone_slab"
+          "id": "minecraft:sandstone_slab"
         }
       },
       {
@@ -217,8 +217,8 @@
         "input_predicate": {
           "predicate_type": "minecraft:random_blockstate_match",
           "block_state": {
-            "Name": "minecraft:sandstone_stairs",
-            "Properties": {
+            "id": "minecraft:sandstone_stairs",
+            "properties": {
               "facing": "west",
               "half": "top"
             }
@@ -226,7 +226,7 @@
           "probability": 0.6
         },
         "output_state": {
-          "Name": "minecraft:sandstone"
+          "id": "minecraft:sandstone"
         }
       },
       {
@@ -236,8 +236,8 @@
         "input_predicate": {
           "predicate_type": "minecraft:random_blockstate_match",
           "block_state": {
-            "Name": "minecraft:sandstone_stairs",
-            "Properties": {
+            "id": "minecraft:sandstone_stairs",
+            "properties": {
               "facing": "west",
               "half": "top"
             }
@@ -245,7 +245,7 @@
           "probability": 0.46
         },
         "output_state": {
-          "Name": "minecraft:sandstone_slab"
+          "id": "minecraft:sandstone_slab"
         }
       },
       {
@@ -255,8 +255,8 @@
         "input_predicate": {
           "predicate_type": "minecraft:random_blockstate_match",
           "block_state": {
-            "Name": "minecraft:sandstone_stairs",
-            "Properties": {
+            "id": "minecraft:sandstone_stairs",
+            "properties": {
               "facing": "west",
               "half": "bottom"
             }
@@ -264,7 +264,7 @@
           "probability": 0.4
         },
         "output_state": {
-          "Name": "minecraft:air"
+          "id": "minecraft:air"
         }
       },
       {
@@ -274,8 +274,8 @@
         "input_predicate": {
           "predicate_type": "minecraft:random_blockstate_match",
           "block_state": {
-            "Name": "minecraft:sandstone_stairs",
-            "Properties": {
+            "id": "minecraft:sandstone_stairs",
+            "properties": {
               "facing": "west",
               "half": "bottom"
             }
@@ -283,7 +283,7 @@
           "probability": 0.6
         },
         "output_state": {
-          "Name": "minecraft:sandstone_slab"
+          "id": "minecraft:sandstone_slab"
         }
       },
       {
@@ -293,8 +293,8 @@
         "input_predicate": {
           "predicate_type": "minecraft:random_blockstate_match",
           "block_state": {
-            "Name": "minecraft:sandstone_stairs",
-            "Properties": {
+            "id": "minecraft:sandstone_stairs",
+            "properties": {
               "facing": "east",
               "half": "top"
             }
@@ -302,7 +302,7 @@
           "probability": 0.6
         },
         "output_state": {
-          "Name": "minecraft:sandstone"
+          "id": "minecraft:sandstone"
         }
       },
       {
@@ -312,8 +312,8 @@
         "input_predicate": {
           "predicate_type": "minecraft:random_blockstate_match",
           "block_state": {
-            "Name": "minecraft:sandstone_stairs",
-            "Properties": {
+            "id": "minecraft:sandstone_stairs",
+            "properties": {
               "facing": "east",
               "half": "top"
             }
@@ -321,7 +321,7 @@
           "probability": 0.46
         },
         "output_state": {
-          "Name": "minecraft:sandstone_slab"
+          "id": "minecraft:sandstone_slab"
         }
       },
       {
@@ -331,8 +331,8 @@
         "input_predicate": {
           "predicate_type": "minecraft:random_blockstate_match",
           "block_state": {
-            "Name": "minecraft:sandstone_stairs",
-            "Properties": {
+            "id": "minecraft:sandstone_stairs",
+            "properties": {
               "facing": "east",
               "half": "bottom"
             }
@@ -340,7 +340,7 @@
           "probability": 0.4
         },
         "output_state": {
-          "Name": "minecraft:air"
+          "id": "minecraft:air"
         }
       },
       {
@@ -350,8 +350,8 @@
         "input_predicate": {
           "predicate_type": "minecraft:random_blockstate_match",
           "block_state": {
-            "Name": "minecraft:sandstone_stairs",
-            "Properties": {
+            "id": "minecraft:sandstone_stairs",
+            "properties": {
               "facing": "east",
               "half": "bottom"
             }
@@ -359,7 +359,7 @@
           "probability": 0.6
         },
         "output_state": {
-          "Name": "minecraft:sandstone_slab"
+          "id": "minecraft:sandstone_slab"
         }
       },
       {
@@ -369,16 +369,16 @@
         "input_predicate": {
           "predicate_type": "minecraft:blockstate_match",
           "block_state": {
-            "Name": "minecraft:sandstone_stairs",
-            "Properties": {
+            "id": "minecraft:sandstone_stairs",
+            "properties": {
               "facing": "north",
               "half": "top"
             }
           }
         },
         "output_state": {
-          "Name": "minecraft:sandstone_stairs",
-          "Properties": {
+          "id": "minecraft:sandstone_stairs",
+          "properties": {
             "facing": "north",
             "half": "bottom"
           }
@@ -391,16 +391,16 @@
         "input_predicate": {
           "predicate_type": "minecraft:blockstate_match",
           "block_state": {
-            "Name": "minecraft:sandstone_stairs",
-            "Properties": {
+            "id": "minecraft:sandstone_stairs",
+            "properties": {
               "facing": "south",
               "half": "top"
             }
           }
         },
         "output_state": {
-          "Name": "minecraft:sandstone_stairs",
-          "Properties": {
+          "id": "minecraft:sandstone_stairs",
+          "properties": {
             "facing": "south",
             "half": "bottom"
           }
@@ -413,16 +413,16 @@
         "input_predicate": {
           "predicate_type": "minecraft:blockstate_match",
           "block_state": {
-            "Name": "minecraft:sandstone_stairs",
-            "Properties": {
+            "id": "minecraft:sandstone_stairs",
+            "properties": {
               "facing": "west",
               "half": "top"
             }
           }
         },
         "output_state": {
-          "Name": "minecraft:sandstone_stairs",
-          "Properties": {
+          "id": "minecraft:sandstone_stairs",
+          "properties": {
             "facing": "west",
             "half": "bottom"
           }
@@ -435,16 +435,16 @@
         "input_predicate": {
           "predicate_type": "minecraft:blockstate_match",
           "block_state": {
-            "Name": "minecraft:sandstone_stairs",
-            "Properties": {
+            "id": "minecraft:sandstone_stairs",
+            "properties": {
               "facing": "east",
               "half": "top"
             }
           }
         },
         "output_state": {
-          "Name": "minecraft:sandstone_stairs",
-          "Properties": {
+          "id": "minecraft:sandstone_stairs",
+          "properties": {
             "facing": "east",
             "half": "bottom"
           }
@@ -457,15 +457,15 @@
         "input_predicate": {
           "predicate_type": "minecraft:blockstate_match",
           "block_state": {
-            "Name": "minecraft:smooth_sandstone_stairs",
-            "Properties": {
+            "id": "minecraft:smooth_sandstone_stairs",
+            "properties": {
               "facing": "north"
             }
           }
         },
         "output_state": {
-          "Name": "minecraft:sandstone_stairs",
-          "Properties": {
+          "id": "minecraft:sandstone_stairs",
+          "properties": {
             "facing": "north"
           }
         }
@@ -477,15 +477,15 @@
         "input_predicate": {
           "predicate_type": "minecraft:blockstate_match",
           "block_state": {
-            "Name": "minecraft:smooth_sandstone_stairs",
-            "Properties": {
+            "id": "minecraft:smooth_sandstone_stairs",
+            "properties": {
               "facing": "south"
             }
           }
         },
         "output_state": {
-          "Name": "minecraft:sandstone_stairs",
-          "Properties": {
+          "id": "minecraft:sandstone_stairs",
+          "properties": {
             "facing": "south"
           }
         }
@@ -497,15 +497,15 @@
         "input_predicate": {
           "predicate_type": "minecraft:blockstate_match",
           "block_state": {
-            "Name": "minecraft:smooth_sandstone_stairs",
-            "Properties": {
+            "id": "minecraft:smooth_sandstone_stairs",
+            "properties": {
               "facing": "west"
             }
           }
         },
         "output_state": {
-          "Name": "minecraft:sandstone_stairs",
-          "Properties": {
+          "id": "minecraft:sandstone_stairs",
+          "properties": {
             "facing": "west"
           }
         }
@@ -517,15 +517,15 @@
         "input_predicate": {
           "predicate_type": "minecraft:blockstate_match",
           "block_state": {
-            "Name": "minecraft:smooth_sandstone_stairs",
-            "Properties": {
+            "id": "minecraft:smooth_sandstone_stairs",
+            "properties": {
               "facing": "east"
             }
           }
         },
         "output_state": {
-          "Name": "minecraft:sandstone_stairs",
-          "Properties": {
+          "id": "minecraft:sandstone_stairs",
+          "properties": {
             "facing": "east"
           }
         }

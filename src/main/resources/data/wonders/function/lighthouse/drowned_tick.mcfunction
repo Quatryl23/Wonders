@@ -6,4 +6,4 @@ execute if block ~-1 ~ ~ #minecraft:beds positioned ~-1 ~ ~ align xyz run return
 execute if block ~1 ~ ~ #minecraft:beds positioned ~1 ~ ~ align xyz run return run function wonders:lighthouse/orient_rest_in_peace
 execute if block ~ ~ ~-1 #minecraft:beds positioned ~ ~ ~-1 align xyz run return run function wonders:lighthouse/orient_rest_in_peace
 execute if block ~ ~ ~1 #minecraft:beds positioned ~ ~ ~1 align xyz run return run function wonders:lighthouse/orient_rest_in_peace
-execute if predicate {condition:"minecraft:random_chance",chance:0.001} unless entity @s[tag=wonders.lighthouse.drowned.hint] run function wonders:lighthouse/drowned_hint
+execute if predicate {type:"minecraft:random_chance",chance:0.001} unless entity @s[tag=wonders.lighthouse.drowned.hint] run function wonders:lighthouse/drowned_hint

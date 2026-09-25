@@ -15,8 +15,12 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:location": {
-            "structures": "wonders:pyramid"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:location": {
+              "structures": "wonders:pyramid"
+            }
           }
         }
       }
@@ -25,8 +29,12 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:location": {
-            "structures": "wonders:gardens"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:location": {
+              "structures": "wonders:gardens"
+            }
           }
         }
       }
@@ -35,8 +43,12 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:location": {
-            "structures": "wonders:lighthouse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:location": {
+              "structures": "wonders:lighthouse"
+            }
           }
         }
       }
@@ -45,8 +57,12 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:location": {
-            "structures": "wonders:colossus"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:location": {
+              "structures": "wonders:colossus"
+            }
           }
         }
       }
@@ -55,8 +71,12 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:location": {
-            "structures": "wonders:temple"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:location": {
+              "structures": "wonders:temple"
+            }
           }
         }
       }
@@ -65,8 +85,12 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:location": {
-            "structures": "wonders:statue"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:location": {
+              "structures": "wonders:statue"
+            }
           }
         }
       }
@@ -75,8 +99,12 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:location": {
-            "structures": "wonders:mausoleum"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:location": {
+              "structures": "wonders:mausoleum"
+            }
           }
         }
       }

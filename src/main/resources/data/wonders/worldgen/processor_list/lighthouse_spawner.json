@@ -12,7 +12,7 @@
           "probability": 0.1
         },
         "output_state": {
-          "Name": "minecraft:spawner"
+          "id": "minecraft:spawner"
         },
         "block_entity_modifier": {
           "type": "minecraft:append_static",

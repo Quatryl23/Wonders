@@ -11,9 +11,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:rotten_flesh",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -25,9 +25,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:suspicious_stew",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_stew_effect",
+              "type": "minecraft:set_stew_effect",
               "effects": [
                 {
                   "type": "minecraft:nausea",

@@ -12,11 +12,11 @@ execute if entity @a[tag=wonders.pyramid.t3,gamemode=!spectator] run bossbar set
 execute if entity @a[tag=wonders.pyramid.t4,gamemode=!spectator] run bossbar set wonders:pyramid_top value 4
 execute if entity @a[tag=wonders.pyramid.t5,gamemode=!spectator] run bossbar set wonders:pyramid_top value 5
 execute if entity @a[tag=wonders.pyramid.t6,gamemode=!spectator] run bossbar set wonders:pyramid_top value 6
-execute if predicate {condition:"minecraft:random_chance",chance:0.0015} run effect give @a[tag=wonders.pyramid.t5,gamemode=!spectator] blindness 10 0 true
-execute if predicate {condition:"minecraft:random_chance",chance:0.00125} run effect give @a[tag=wonders.pyramid.t4,gamemode=!spectator] blindness 10 0 true
-execute if predicate {condition:"minecraft:random_chance",chance:0.001} run effect give @a[tag=wonders.pyramid.t3,gamemode=!spectator] blindness 10 0 true
-execute if predicate {condition:"minecraft:random_chance",chance:0.00075} run effect give @a[tag=wonders.pyramid.t2,gamemode=!spectator] blindness 10 0 true
-execute if predicate {condition:"minecraft:random_chance",chance:0.0005} run effect give @a[tag=wonders.pyramid.t1,gamemode=!spectator] blindness 10 0 true
+execute if predicate {type:"minecraft:random_chance",chance:0.0015} run effect give @a[tag=wonders.pyramid.t5,gamemode=!spectator] blindness 10 0 true
+execute if predicate {type:"minecraft:random_chance",chance:0.00125} run effect give @a[tag=wonders.pyramid.t4,gamemode=!spectator] blindness 10 0 true
+execute if predicate {type:"minecraft:random_chance",chance:0.001} run effect give @a[tag=wonders.pyramid.t3,gamemode=!spectator] blindness 10 0 true
+execute if predicate {type:"minecraft:random_chance",chance:0.00075} run effect give @a[tag=wonders.pyramid.t2,gamemode=!spectator] blindness 10 0 true
+execute if predicate {type:"minecraft:random_chance",chance:0.0005} run effect give @a[tag=wonders.pyramid.t1,gamemode=!spectator] blindness 10 0 true
 tag @a[tag=wonders.pyramid.t6] remove wonders.pyramid.t6
 tag @a[tag=wonders.pyramid.t5] remove wonders.pyramid.t5
 tag @a[tag=wonders.pyramid.t4] remove wonders.pyramid.t4

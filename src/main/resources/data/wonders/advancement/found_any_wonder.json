@@ -16,8 +16,12 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:location": {
-            "structures": "#wonders:wonder"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:location": {
+              "structures": "#wonders:wonder"
+            }
           }
         }
       }

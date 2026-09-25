@@ -47,10 +47,7 @@
           "function": "minecraft:set_components",
           "components": {
             "!minecraft:max_damage": {},
-            "!minecraft:damage": {},
-            "minecraft:use_remainder": {
-              "id": "minecraft:acacia_log"
-            }
+            "!minecraft:damage": {}
           }
         }
       ],

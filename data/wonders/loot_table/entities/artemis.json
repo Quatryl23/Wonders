@@ -7,20 +7,20 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bow",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_custom_data",
+              "type": "minecraft:set_custom_data",
               "tag": "{wonders.item.artemis_bow:1b}"
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "text": "Artemis' Bow",
                 "italic": false
               }
             },
             {
-              "function": "minecraft:set_lore",
+              "type": "minecraft:set_lore",
               "lore": [
                 {
                   "text": "Surprise enemies with a prickly shower"
@@ -29,7 +29,7 @@
               "mode": "insert"
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:rarity": "uncommon",
                 "minecraft:unbreakable": {},

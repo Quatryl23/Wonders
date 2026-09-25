@@ -8,12 +8,12 @@
     }
   },
   "gives": {
-    "id": "minecraft:map",
+    "id": "minecraft:filled_map",
     "count": 1
   },
-  "given_item_modifiers": [
+  "given_item_modifier": [
     {
-      "function": "minecraft:exploration_map",
+      "type": "minecraft:exploration_map",
       "destination": "wonders:pyramid",
       "decoration": "minecraft:target_x",
       "zoom": 4,
@@ -21,7 +21,7 @@
       "skip_existing_chunks": false
     },
     {
-      "function": "minecraft:set_name",
+      "type": "minecraft:set_name",
       "name": {
         "text": "The Great Pyramid of Giza Map",
         "italic": false

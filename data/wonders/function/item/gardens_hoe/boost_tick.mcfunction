@@ -1,4 +1,4 @@
-execute unless predicate {condition:"minecraft:time_check",clock:"minecraft:overworld",value:0,period:20} run return fail
+execute unless predicate {type:"minecraft:time_check",clock:"minecraft:overworld",value:0,period:20} run return fail
 execute unless block ~ ~ ~ farmland run kill @s
 execute unless block ~ ~ ~ farmland run return fail
 summon marker ~ ~ ~ {Tags:["wonders.item.gardens_hoe.boost_effect"]}

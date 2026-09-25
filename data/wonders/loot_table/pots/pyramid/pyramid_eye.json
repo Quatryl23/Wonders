@@ -7,23 +7,23 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:ender_eye",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "text": "Cheops' Eye",
                 "italic": false
               }
             },
             {
-              "function": "minecraft:set_lore",
+              "type": "minecraft:set_lore",
               "lore": [
                 "Grants the vision of the dead"
               ],
               "mode": "insert"
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:rarity": "uncommon",
                 "minecraft:custom_data": {

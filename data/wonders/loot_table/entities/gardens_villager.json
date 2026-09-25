@@ -7,9 +7,9 @@
         {
           "type": "minecraft:item",
           "name": "diamond_hoe",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:rarity": "uncommon",
                 "minecraft:unbreakable": {},
@@ -19,14 +19,14 @@
               }
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "text": "Hoe of the Hanging Gardens",
                 "italic": false
               }
             },
             {
-              "function": "minecraft:set_lore",
+              "type": "minecraft:set_lore",
               "lore": [
                 {
                   "text": "Improve growth on tilled farmland"

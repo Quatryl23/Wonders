@@ -1,5 +1,5 @@
 execute if score @s wonders.timer matches ..0 run function wonders:lighthouse/spawner_set_cooldown
-execute if score @s wonders.timer matches 1 if predicate {condition:"minecraft:random_chance",chance:0.3} positioned ~0.3 ~ ~ run return run function wonders:lighthouse/spawner_summon
-execute if score @s wonders.timer matches 1 if predicate {condition:"minecraft:random_chance",chance:0.3} positioned ~-0.3 ~ ~ run return run function wonders:lighthouse/spawner_summon
-execute if score @s wonders.timer matches 1 if predicate {condition:"minecraft:random_chance",chance:0.3} positioned ~ ~ ~0.3 run return run function wonders:lighthouse/spawner_summon
-execute if score @s wonders.timer matches 1 if predicate {condition:"minecraft:random_chance",chance:0.3} positioned ~ ~ ~-0.3 run return run function wonders:lighthouse/spawner_summon
+execute if score @s wonders.timer matches 1 if predicate {type:"minecraft:random_chance",chance:0.3} positioned ~0.3 ~ ~ run return run function wonders:lighthouse/spawner_summon
+execute if score @s wonders.timer matches 1 if predicate {type:"minecraft:random_chance",chance:0.3} positioned ~-0.3 ~ ~ run return run function wonders:lighthouse/spawner_summon
+execute if score @s wonders.timer matches 1 if predicate {type:"minecraft:random_chance",chance:0.3} positioned ~ ~ ~0.3 run return run function wonders:lighthouse/spawner_summon
+execute if score @s wonders.timer matches 1 if predicate {type:"minecraft:random_chance",chance:0.3} positioned ~ ~ ~-0.3 run return run function wonders:lighthouse/spawner_summon

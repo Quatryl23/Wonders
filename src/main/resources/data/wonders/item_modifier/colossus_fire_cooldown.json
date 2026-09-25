@@ -1,61 +1,59 @@
-[
-  {
-    "function": "minecraft:filtered",
+{
+  "type": "minecraft:filtered",
+  "item_filter": {
+    "predicates": {
+      "minecraft:custom_data": {
+        "wonders.item.colossus_fire": false
+      }
+    }
+  },
+  "on_pass": {
+    "type": "minecraft:filtered",
     "item_filter": {
       "predicates": {
-        "minecraft:custom_data": {
-          "wonders.item.colossus_fire": false
+        "minecraft:damage": {
+          "damage": 1
         }
       }
     },
-    "on_pass": {
-      "function": "minecraft:filtered",
-      "item_filter": {
-        "predicates": {
-          "minecraft:damage": {
-            "damage": 1
-          }
+    "on_pass": [
+      {
+        "type": "minecraft:set_item",
+        "item": "minecraft:campfire"
+      },
+      {
+        "type": "minecraft:set_name",
+        "name": {
+          "text": "Light of Rhodes",
+          "italic": false
         }
       },
-      "on_pass": [
-        {
-          "function": "minecraft:set_item",
-          "item": "minecraft:campfire"
-        },
-        {
-          "function": "minecraft:set_name",
-          "name": {
-            "text": "Light of Rhodes",
-            "italic": false
-          }
-        },
-        {
-          "function": "minecraft:set_lore",
-          "lore": [
-            "It's said to be able to turn night into day"
-          ],
-          "mode": "replace_section",
-          "size": 1
-        },
-        {
-          "function": "minecraft:set_custom_data",
-          "tag": {
-            "wonders.item.colossus_fire": true
-          }
-        },
-        {
-          "function": "minecraft:set_components",
-          "components": {
-            "!minecraft:max_damage": {},
-            "!minecraft:damage": {}
-          }
+      {
+        "type": "minecraft:set_lore",
+        "lore": [
+          "It's said to be able to turn night into day"
+        ],
+        "mode": "replace_section",
+        "size": 1
+      },
+      {
+        "type": "minecraft:set_custom_data",
+        "tag": {
+          "wonders.item.colossus_fire": true
         }
-      ],
-      "on_fail": {
-        "function": "minecraft:set_damage",
-        "damage": 0.01,
-        "add": true
+      },
+      {
+        "type": "minecraft:set_components",
+        "components": {
+          "!minecraft:max_damage": {},
+          "!minecraft:damage": {}
+        }
       }
+    ],
+    "on_fail": {
+      "type": "minecraft:set_damage",
+      "damage": 0.01,
+      "add": true
     }
   }
-]
+}

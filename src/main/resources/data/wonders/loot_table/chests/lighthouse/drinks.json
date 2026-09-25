@@ -7,13 +7,13 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:potion",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_potion",
+              "type": "minecraft:set_potion",
               "id": "minecraft:water"
             },
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 0,
@@ -34,9 +34,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:potion",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_random_potion"
+              "type": "minecraft:set_random_potion"
             }
           ]
         }

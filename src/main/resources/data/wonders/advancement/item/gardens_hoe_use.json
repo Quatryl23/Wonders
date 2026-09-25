@@ -3,19 +3,17 @@
     "use": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-              "items": "#minecraft:hoes",
-              "components": {
-                "minecraft:custom_data": {
-                  "wonders.item.gardens_hoe": true
-                }
+        "location": {
+          "type": "minecraft:match_tool",
+          "predicate": {
+            "items": "#minecraft:hoes",
+            "components": {
+              "minecraft:custom_data": {
+                "wonders.item.gardens_hoe": true
               }
             }
           }
-        ]
+        }
       }
     }
   },

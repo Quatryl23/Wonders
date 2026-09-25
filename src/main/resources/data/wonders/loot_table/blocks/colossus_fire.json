@@ -7,23 +7,18 @@
         {
           "type": "minecraft:loot_table",
           "value": "wonders:blocks/colossus_fire_weak",
-          "functions": [
+          "expand": false,
+          "modifier": [
             {
-              "function": "minecraft:sequence",
+              "type": "minecraft:sequence",
               "functions": [
                 {
-                  "function": "minecraft:set_damage",
+                  "type": "minecraft:set_damage",
                   "damage": 0.98,
                   "add": false
                 },
-                {
-                  "function": "minecraft:reference",
-                  "name": "wonders:colossus_fire_cooldown"
-                },
-                {
-                  "function": "minecraft:reference",
-                  "name": "wonders:colossus_fire_cooldown"
-                }
+                "wonders:colossus_fire_cooldown",
+                "wonders:colossus_fire_cooldown"
               ]
             }
           ]

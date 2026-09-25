@@ -4,10 +4,14 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "minecraft:entity_tags": {
-            "all_of": [
-              "wonders.lighthouse.reward"
-            ]
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_tags": {
+              "all_of": [
+                "wonders.lighthouse.reward"
+              ]
+            }
           }
         }
       }

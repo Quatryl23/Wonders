@@ -12,7 +12,7 @@
           "probability": 0.2
         },
         "output_state": {
-          "Name": "minecraft:ancient_debris"
+          "id": "minecraft:ancient_debris"
         }
       },
       {
@@ -25,7 +25,7 @@
           "probability": 0.3
         },
         "output_state": {
-          "Name": "minecraft:coarse_dirt"
+          "id": "minecraft:coarse_dirt"
         }
       }
     ]

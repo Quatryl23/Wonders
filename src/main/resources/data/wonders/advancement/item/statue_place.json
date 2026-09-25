@@ -3,21 +3,19 @@
     "statue_placed": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-              "items": [
-                "minecraft:waxed_copper_golem_statue"
-              ],
-              "components": {
-                "minecraft:custom_data": {
-                  "wonders.item.statue": true
-                }
+        "location": {
+          "type": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "minecraft:waxed_copper_golem_statue"
+            ],
+            "components": {
+              "minecraft:custom_data": {
+                "wonders.item.statue": true
               }
             }
           }
-        ]
+        }
       }
     }
   },

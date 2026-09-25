@@ -11,9 +11,9 @@ execute if score @s wonders.item.mausoleum_jar.xp matches 70..149 run scoreboard
 execute if score @s wonders.item.mausoleum_jar.xp matches 150..249 run scoreboard players set @s wonders.item.mausoleum_jar.max_xp 249
 execute if score @s wonders.item.mausoleum_jar.xp matches 250.. run scoreboard players set @s wonders.item.mausoleum_jar.max_xp -1
 scoreboard players add @s wonders.item.mausoleum_jar.xp 2
-execute if predicate {condition:"minecraft:value_check",value:{type:"minecraft:uniform",min:0,max:{type:"minecraft:score",target:"this",score:"wonders.item.mausoleum_jar.xp"}},range:{min:10}} run scoreboard players add @s wonders.item.mausoleum_jar.xp 3
-execute if predicate {condition:"minecraft:value_check",value:{type:"minecraft:uniform",min:0,max:{type:"minecraft:score",target:"this",score:"wonders.item.mausoleum_jar.xp"}},range:{min:70}} run scoreboard players add @s wonders.item.mausoleum_jar.xp 4
-execute if predicate {condition:"minecraft:value_check",value:{type:"minecraft:uniform",min:0,max:{type:"minecraft:score",target:"this",score:"wonders.item.mausoleum_jar.xp"}},range:{min:150}} run scoreboard players add @s wonders.item.mausoleum_jar.xp 5
+execute if predicate {type:"minecraft:int_value_check",value:{type:"minecraft:uniform",min:0,max:{type:"minecraft:score",target:"this",score:"wonders.item.mausoleum_jar.xp"}},test:{min:10}} run scoreboard players add @s wonders.item.mausoleum_jar.xp 3
+execute if predicate {type:"minecraft:int_value_check",value:{type:"minecraft:uniform",min:0,max:{type:"minecraft:score",target:"this",score:"wonders.item.mausoleum_jar.xp"}},test:{min:70}} run scoreboard players add @s wonders.item.mausoleum_jar.xp 4
+execute if predicate {type:"minecraft:int_value_check",value:{type:"minecraft:uniform",min:0,max:{type:"minecraft:score",target:"this",score:"wonders.item.mausoleum_jar.xp"}},test:{min:150}} run scoreboard players add @s wonders.item.mausoleum_jar.xp 5
 execute unless score @s wonders.item.mausoleum_jar.max_xp matches -1 run scoreboard players operation @s wonders.item.mausoleum_jar.xp < @s wonders.item.mausoleum_jar.max_xp
 execute store result storage wonders:item/mausoleum_jar xp int 1 run scoreboard players get @s wonders.item.mausoleum_jar.xp
 data modify entity @s Xp set from storage wonders:item/mausoleum_jar xp

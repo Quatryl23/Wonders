@@ -7,23 +7,23 @@
         {
           "type": "minecraft:item",
           "name": "spyglass",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "text": "Lighthouse Keeper's Spyglass",
                 "italic": false
               }
             },
             {
-              "function": "minecraft:set_lore",
+              "type": "minecraft:set_lore",
               "lore": [
                 "Points the way to villages and shipwrecks"
               ],
               "mode": "insert"
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:custom_data": {
                   "wonders.item.lighthouse_spyglass": true

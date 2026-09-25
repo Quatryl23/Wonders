@@ -34,7 +34,7 @@ Once you've entered this giant piece of sandstone, you better find a way to navi
   - Emeralds
   - Diamonds
   - Ancient Debris
-  - Cheops' Eye
+    
   <details>
     <summary><strong>Cheops' Eye</strong></summary>
 

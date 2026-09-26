@@ -1,4 +1,4 @@
-execute at @s[tag=!wonders.statue.summoned] run title @a[distance=..25,gamemode=!spectator] actionbar "§4Kill the Copper golems"
+execute at @s[tag=!wonders.statue.summoned] run title @a[distance=..25,gamemode=!spectator] actionbar "§4Kill the Copper Golems"
 execute at @s[tag=!wonders.statue.summoned] if entity @s[y_rotation=0] run setblock ^2 ^4 ^-2 waxed_copper_golem_statue[copper_golem_pose=star,facing=north]
 execute at @s[tag=!wonders.statue.summoned] if entity @s[y_rotation=90] run setblock ^2 ^4 ^-2 waxed_copper_golem_statue[copper_golem_pose=star,facing=east]
 execute at @s[tag=!wonders.statue.summoned] if entity @s[y_rotation=180] run setblock ^2 ^4 ^-2 waxed_copper_golem_statue[copper_golem_pose=star,facing=south]

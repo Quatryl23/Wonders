@@ -15,7 +15,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:location": {
+          "location": {
             "structures": "wonders:pyramid"
           }
         }
@@ -25,7 +25,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:location": {
+          "location": {
             "structures": "wonders:gardens"
           }
         }
@@ -35,7 +35,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:location": {
+          "location": {
             "structures": "wonders:lighthouse"
           }
         }
@@ -45,7 +45,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:location": {
+          "location": {
             "structures": "wonders:colossus"
           }
         }
@@ -55,7 +55,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:location": {
+          "location": {
             "structures": "wonders:temple"
           }
         }
@@ -65,7 +65,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:location": {
+          "location": {
             "structures": "wonders:statue"
           }
         }
@@ -75,7 +75,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:location": {
+          "location": {
             "structures": "wonders:mausoleum"
           }
         }

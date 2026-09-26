@@ -4,7 +4,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "minecraft:team": "wonders.mausoleum.fight"
+          "team": "wonders.mausoleum.fight"
         }
       }
     }

@@ -4,10 +4,8 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "minecraft:entity_tags": {
-            "all_of": [
-              "wonders.lighthouse.reward"
-            ]
+          "nbt": {
+            "Tags": ["wonders.lighthouse.reward"]
           }
         }
       }

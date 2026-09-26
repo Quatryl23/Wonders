@@ -16,7 +16,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:location": {
+          "location": {
             "structures": "#wonders:wonder"
           }
         }

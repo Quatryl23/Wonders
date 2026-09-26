@@ -1,1 +1,1 @@
-execute if data block ~ ~ ~ components.minecraft:custom_data."wonders.item.statue" align xyz run summon marker ~ ~ ~ {Tags:["wonders.item.statue","wonders.ticked"]}
+execute if data block ~ ~ ~ components.minecraft:custom_data."wonders.item.statue" align xyz run summon marker ~0.5 ~ ~0.5 {Tags:["wonders.item.statue","wonders.ticked"]}

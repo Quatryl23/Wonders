@@ -35,7 +35,10 @@
                 "minecraft:unbreakable": {},
                 "minecraft:use_cooldown": {
                   "seconds": 30,
-                  "cooldown_group": "wonders.item.artemis_bow"
+                  "cooldown_group": "wonders.item.artemis_bow",
+                  "minecraft:damage_resistant": {
+                    "types": "#minecraft:is_fire"
+                  }
                 }
               }
             }

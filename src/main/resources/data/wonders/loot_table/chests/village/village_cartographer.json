@@ -1,0 +1,157 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "wonders:colossus",
+              "decoration": "minecraft:target_x",
+              "zoom": 4,
+              "search_radius": 5000,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "The Colossus of Rhodes Map",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "wonders:gardens",
+              "decoration": "minecraft:target_x",
+              "zoom": 4,
+              "search_radius": 5000,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "The Hanging Gardens of Babylon Map",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "wonders:lighthouse",
+              "decoration": "minecraft:target_x",
+              "zoom": 4,
+              "search_radius": 5000,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "The Lighthouse of Alexandria Map",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "wonders:mausoleum",
+              "decoration": "minecraft:target_x",
+              "zoom": 4,
+              "search_radius": 5000,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "The Mausoleum of Halicarnassus Map",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "wonders:pyramid",
+              "decoration": "minecraft:target_x",
+              "zoom": 4,
+              "search_radius": 5000,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "The Great Pyramid of Giza Map",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "wonders:statue",
+              "decoration": "minecraft:target_x",
+              "zoom": 4,
+              "search_radius": 5000,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "The Statue of Zeus at Olympia Map",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "wonders:temple",
+              "decoration": "minecraft:target_x",
+              "zoom": 4,
+              "search_radius": 5000,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "The Temple of Artemis at Ephesus Map",
+                "italic": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

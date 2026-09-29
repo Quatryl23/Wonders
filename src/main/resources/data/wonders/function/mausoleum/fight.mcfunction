@@ -1,4 +1,6 @@
 execute as @a[distance=..25,gamemode=!spectator,gamemode=!creative] run effect give @s mining_fatigue 1 3 true
+scoreboard players set @s wonders.mausoleum.fight 0
+execute at @e[team=wonders.mausoleum.fight,distance=..100] run scoreboard players add @s wonders.mausoleum.fight 1
 execute as @s store result bossbar wonders:mausoleum value run scoreboard players get @s wonders.mausoleum.fight
 bossbar set wonders:mausoleum players @a[distance=..25]
 execute unless entity @s[tag=wonders.mausoleum.wave_5] run return fail

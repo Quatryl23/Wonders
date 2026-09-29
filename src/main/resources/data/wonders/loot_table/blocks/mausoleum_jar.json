@@ -37,7 +37,10 @@
                   "minecraft:brick",
                   "minecraft:skull_pottery_sherd"
                 ],
-                "minecraft:rarity": "uncommon"
+                "minecraft:rarity": "uncommon",
+                "minecraft:damage_resistant": {
+                  "types": "#minecraft:is_fire"
+                }
               }
             }
           ]

@@ -34,7 +34,10 @@
                 "minecraft:block_state": {
                   "copper_golem_pose": "star"
                 },
-                "minecraft:rarity": "uncommon"
+                "minecraft:rarity": "uncommon",
+                "minecraft:damage_resistant": {
+                  "types": "#minecraft:is_fire"
+                }
               }
             }
           ]

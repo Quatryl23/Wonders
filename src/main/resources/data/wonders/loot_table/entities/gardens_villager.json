@@ -15,6 +15,9 @@
                 "minecraft:unbreakable": {},
                 "minecraft:custom_data": {
                   "wonders.item.gardens_hoe": true
+                },
+                "minecraft:damage_resistant": {
+                  "types": "#minecraft:is_fire"
                 }
               }
             },

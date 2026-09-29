@@ -31,13 +31,16 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:pot_decorations": [
-                  "minecraft:brick",
-                  "minecraft:brick",
-                  "minecraft:brick",
-                  "minecraft:skull_pottery_sherd"
-                ],
-                "minecraft:rarity": "uncommon"
+                "minecraft:pot_decorations": {
+                  "left": "minecraft:brick",
+                  "back": "minecraft:brick",
+                  "right": "minecraft:brick",
+                  "front": "minecraft:skull_pottery_sherd"
+                },
+                "minecraft:rarity": "uncommon",
+                "minecraft:damage_resistant": {
+                  "types": "#minecraft:is_fire"
+                }
               }
             }
           ]

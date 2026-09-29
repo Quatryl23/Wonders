@@ -1,7 +1,7 @@
 <img width="1000" height="256" alt="wonders_header" src="https://github.com/user-attachments/assets/74d5129e-ab46-4854-8cc0-eec61063c609" />
 
 | [Download on CurseForge](https://www.curseforge.com/minecraft/data-packs/wonders) | [Download on Modrinth](https://modrinth.com/datapack/seven-wonders) |
-|------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------------|---------------------------------------------------------------------|
 
 # The Seven Wonders of the Ancient World in Minecraft
 - Seven new, rare structures of impressive size
@@ -259,6 +259,26 @@ Try to find an entrance until you realize it was blocked years ago. Smart move o
   - Pot with a skull on the front
   - When placed down, villagers nearby repeatedly put emeralds inside
   - Villagers also gain experience by doing this but can't level up this way
-  - Jar of Xerxes can be broken to collect the emeralds and placed down again afterwards
+  - Jar of Xerxes can be broken to collect the emeralds and placed down again afterward
   </details>
 </details>
+
+# How to find the Seven Wonders
+- Find Explorer Maps in copper chests of **Abandoned Camps** **[26.3+]**
+- Wait for the **Wandering Trader** to sell Explorer Maps (Half of them should sell at least one) **[26.1-26.2]**
+- Find Explorer Maps in **Cartographer's chests** in all villages except desert **[1.21.11]**
+
+_NOTE: The creation of Explorer Maps leading to relatively rare structures can cause delays when
+opening the trading screen / loot chests. If a chest mysteriously remains empty when opened, wait
+a few seconds to let the loot generate properly._
+- Alternatively, look in these biomes to improve your chance of finding specific wonders:
+
+|                              |              |                                           |
+|------------------------------|--------------|-------------------------------------------|
+| Great Pyramid of Giza        | Desert       | `#minecraft:has_structure/desert_pyramid` | 
+| Hanging Gardens of Babylon   | Desert       | `#minecraft:has_structure/village_desert` |
+| Lighthouse of Alexandria     | Beach        | `minecraft:beach`                         |
+| Colossus of Rhodes           | Beach        | `minecraft:beach`                         |
+| Statue of Zeus at Olympia    | Hilly biomes | `#minecraft:is_hill`                      |
+| Temple of Artemis at Ephesus | Swamp        | `#minecraft:has_structure/swamp_hut`      |
+| Mausoleum at Halicarnassus   | Savanna      | `#minecraft:is_savanna`                   |

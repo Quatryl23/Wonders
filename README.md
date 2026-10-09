@@ -10,7 +10,7 @@
 
 *The structures are built to match the true size and (mostly) the appearance of their historical counterparts. However, the interiors are often more vaguely adopted to make the exploration more interesting and add fun gameplay.*
 
-**If you want the Seven Wonders to be truly unique and generate only once per world, download the Finite Structures mod on [Modrinth](https://modrinth.com/mod/finite-structures) or [CurseForge](https://www.curseforge.com/minecraft/mc-mods/finite-structures)***
+**If you want the Seven Wonders to be truly unique and generate only once per world, download the Finite Structures mod on [Modrinth](https://modrinth.com/mod/finite-structures) or [CurseForge](https://www.curseforge.com/minecraft/mc-mods/finite-structures)**
 
 ## The Great Pyramid of Giza
 <img width="960" height="540" alt="pyramid" src="https://github.com/user-attachments/assets/49dcbe66-3c65-4cad-82ae-309ae220a3c7" />

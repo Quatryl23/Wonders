@@ -13,7 +13,7 @@ repositories {
 }
 
 base {
-    archivesName = mod_id
+    archivesName = project.archives_name
 }
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(25)
@@ -156,6 +156,10 @@ publishing {
             url "file://${project.projectDir}/repo"
         }
     }
+}
+
+java {
+    withSourcesJar()
 }
 
 // IDEA no longer automatically downloads sources/javadoc jars for dependencies, so we need to explicitly enable the behavior.

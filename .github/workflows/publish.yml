@@ -1,0 +1,36 @@
+name: Publish on CurseForge and Modrinth
+on: [push, workflow_dispatch]
+jobs:
+  build:
+    permissions: 
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          submodules: true
+
+      - name: Setup Java
+        uses: actions/setup-java@v6
+        with:
+          java-version: 25
+          distribution: oracle-openjdk
+
+      - name: Prepare Gradle Wrapper
+        if: ${{ runner.os != 'Windows' }}
+        run: chmod +x ./gradlew
+
+      - name: Build
+        run: ./gradlew clean build
+
+      - name: Publish
+        uses: Kira-NT/mc-publish@v3.3.1
+        with:
+          modrinth-id: jdz0GcQ3
+          modrinth-featured: true
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          curseforge-id: 1657078
+          curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
+          changelog-file: CHANGELOG.md
+          environment: server

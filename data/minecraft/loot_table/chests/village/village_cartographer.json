@@ -102,7 +102,7 @@
       "rolls": 1
     },
     {
-      "rolls": 0,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:loot_table",
